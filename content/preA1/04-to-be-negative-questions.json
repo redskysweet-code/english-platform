@@ -1,0 +1,352 @@
+{
+  "id": "preA1-04",
+  "title": "To be: отрицания и вопросы",
+  "goal": "Отрицать с not, задавать вопросы с am / is / are, отвечать кратко и использовать слова what, who, where, how.",
+  "explanation": [
+    {
+      "t": "p",
+      "text": "В прошлом уроке вы научились утверждать: I am happy. Теперь научимся говорить «нет» и спрашивать. Для этого не нужны никакие новые глаголы: мы пользуемся тем же to be."
+    },
+    {
+      "t": "h",
+      "text": "Отрицание: добавляем not"
+    },
+    {
+      "t": "table",
+      "head": [
+        "Полная форма",
+        "Краткая форма",
+        "Перевод"
+      ],
+      "rows": [
+        [
+          "I am not",
+          "I'm not",
+          "Я не..."
+        ],
+        [
+          "you are not",
+          "you aren't / you're not",
+          "Ты не..."
+        ],
+        [
+          "he / she / it is not",
+          "isn't / he's not",
+          "Он / она / оно не..."
+        ],
+        [
+          "we / they are not",
+          "aren't / we're not",
+          "Мы / они не..."
+        ]
+      ]
+    },
+    {
+      "t": "ex",
+      "en": "I am not late.",
+      "ru": "Я не опоздал."
+    },
+    {
+      "t": "ex",
+      "en": "She isn't hungry.",
+      "ru": "Она не голодна."
+    },
+    {
+      "t": "warn",
+      "text": "Форма «amn't» не существует. Для I кратко можно только I'm not."
+    },
+    {
+      "t": "h",
+      "text": "Вопрос: глагол идёт вперёд"
+    },
+    {
+      "t": "p",
+      "text": "Чтобы задать вопрос, меняем местами местоимение и глагол. Интонация голоса поднимается к концу."
+    },
+    {
+      "t": "table",
+      "head": [
+        "Утверждение",
+        "Вопрос"
+      ],
+      "rows": [
+        [
+          "You are happy.",
+          "Are you happy?"
+        ],
+        [
+          "She is tired.",
+          "Is she tired?"
+        ],
+        [
+          "I am late.",
+          "Am I late?"
+        ],
+        [
+          "They are hungry.",
+          "Are they hungry?"
+        ]
+      ]
+    },
+    {
+      "t": "h",
+      "text": "Краткие ответы"
+    },
+    {
+      "t": "p",
+      "text": "На такой вопрос отвечают коротко: Yes, I am. / No, I'm not. Yes, she is. / No, she isn't."
+    },
+    {
+      "t": "warn",
+      "text": "В коротком «да» глагол не сокращается: правильно «Yes, I am», а «Yes, I'm» — ошибка. В коротком «нет» сокращать можно: No, she isn't."
+    },
+    {
+      "t": "h",
+      "text": "Вопросительные слова"
+    },
+    {
+      "t": "p",
+      "text": "What (что), who (кто), where (где), how (как) ставим в самое начало, а дальше порядок тот же: глагол, потом местоимение."
+    },
+    {
+      "t": "ex",
+      "en": "Where are you?",
+      "ru": "Где ты?"
+    },
+    {
+      "t": "ex",
+      "en": "How are you?",
+      "ru": "Как дела?"
+    },
+    {
+      "t": "ex",
+      "en": "Who is she?",
+      "ru": "Кто она?"
+    },
+    {
+      "t": "warn",
+      "text": "Типичная ошибка: оставлять порядок слов, как в утверждении: «Where you are?». Правильно: Where are you?"
+    },
+    {
+      "t": "p",
+      "text": "Итог: отрицание = to be + not, вопрос = to be перед местоимением. Вопросительное слово идёт первым."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "not",
+      "en": "not",
+      "ru": "не",
+      "pos": "частица",
+      "ipa": "/nɒt/",
+      "example": "I am not tired.",
+      "exampleRu": "Я не устал."
+    },
+    {
+      "id": "what",
+      "en": "what",
+      "ru": "что, какой",
+      "pos": "вопросительное слово",
+      "ipa": "/wɒt/",
+      "example": "What is it?",
+      "exampleRu": "Что это?"
+    },
+    {
+      "id": "who",
+      "en": "who",
+      "ru": "кто",
+      "pos": "вопросительное слово",
+      "ipa": "/huː/",
+      "example": "Who is she?",
+      "exampleRu": "Кто она?"
+    },
+    {
+      "id": "where",
+      "en": "where",
+      "ru": "где, куда",
+      "pos": "вопросительное слово",
+      "ipa": "/weə/",
+      "example": "Where are you?",
+      "exampleRu": "Где ты?"
+    },
+    {
+      "id": "how",
+      "en": "how",
+      "ru": "как",
+      "pos": "вопросительное слово",
+      "ipa": "/haʊ/",
+      "example": "How are you?",
+      "exampleRu": "Как дела?"
+    },
+    {
+      "id": "fine",
+      "en": "fine",
+      "ru": "хорошо, в порядке",
+      "pos": "прилагательное",
+      "ipa": "/faɪn/",
+      "example": "I am fine, thank you.",
+      "exampleRu": "У меня всё хорошо, спасибо."
+    },
+    {
+      "id": "home",
+      "en": "home",
+      "ru": "дома, домой",
+      "pos": "существительное",
+      "ipa": "/həʊm/",
+      "example": "We are at home.",
+      "exampleRu": "Мы дома.",
+      "collocations": [
+        "at home"
+      ],
+      "note": "Дом как здание — house."
+    },
+    {
+      "id": "late",
+      "en": "late",
+      "ru": "поздний, опоздавший",
+      "pos": "прилагательное",
+      "ipa": "/leɪt/",
+      "example": "He is not late.",
+      "exampleRu": "Он не опоздал."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choice",
+      "topic": "to be: отрицание",
+      "prompt": "She ___ tired. (отрицание)",
+      "options": [
+        "is not",
+        "not is",
+        "does not",
+        "am not"
+      ],
+      "answer": 0,
+      "explain": "Отрицание: is + not, то есть She is not tired или She isn't tired."
+    },
+    {
+      "id": "e2",
+      "type": "gap",
+      "topic": "to be: отрицание",
+      "prompt": "We ___ not late.",
+      "accepted": [
+        "are"
+      ],
+      "explain": "С we используется are: We are not late."
+    },
+    {
+      "id": "e3",
+      "type": "type",
+      "topic": "to be: отрицание",
+      "prompt": "Напишите краткую форму от «she is not»",
+      "accepted": [
+        "she isn't",
+        "she's not"
+      ],
+      "explain": "She is not = She isn't или She's not.",
+      "strict": true
+    },
+    {
+      "id": "e4",
+      "type": "choice",
+      "topic": "to be: вопрос",
+      "prompt": "___ you happy?",
+      "options": [
+        "Are",
+        "Is",
+        "Am",
+        "Do"
+      ],
+      "answer": 0,
+      "explain": "Вопрос с you: Are you happy?"
+    },
+    {
+      "id": "e5",
+      "type": "choice",
+      "topic": "to be: вопрос",
+      "prompt": "How ___ you?",
+      "options": [
+        "are",
+        "is",
+        "am",
+        "be"
+      ],
+      "answer": 0,
+      "explain": "How are you? Глагол are стоит перед you."
+    },
+    {
+      "id": "e6",
+      "type": "type",
+      "topic": "to be: вопрос",
+      "prompt": "Переведите: «Он голоден?»",
+      "accepted": [
+        "is he hungry"
+      ],
+      "explain": "Is he hungry? Глагол вперёд."
+    },
+    {
+      "id": "e7",
+      "type": "type",
+      "topic": "to be: вопрос",
+      "prompt": "Переведите: «Где ты?»",
+      "accepted": [
+        "where are you"
+      ],
+      "explain": "Where are you? Вопросительное слово, затем глагол, затем you."
+    },
+    {
+      "id": "e8",
+      "type": "choice",
+      "topic": "Краткие ответы",
+      "prompt": "Is she tired? — Yes, ___.",
+      "options": [
+        "she is",
+        "she's",
+        "she am",
+        "she are"
+      ],
+      "answer": 0,
+      "explain": "В коротком «да» глагол не сокращается: Yes, she is."
+    },
+    {
+      "id": "e9",
+      "type": "choice",
+      "topic": "to be: вопрос",
+      "prompt": "Выберите правильный вопрос:",
+      "options": [
+        "Where are you?",
+        "Where you are?",
+        "Where is you?",
+        "Where you?"
+      ],
+      "answer": 0,
+      "explain": "Порядок слов: вопросительное слово, глагол, местоимение."
+    },
+    {
+      "id": "e10",
+      "type": "type",
+      "topic": "Краткие ответы",
+      "prompt": "Are you late? Ответьте «нет» кратко (No, ...)",
+      "accepted": [
+        "I'm not",
+        "I am not"
+      ],
+      "explain": "No, I'm not. Сокращение amn't не бывает."
+    },
+    {
+      "id": "e11",
+      "type": "type",
+      "topic": "Вопросы",
+      "prompt": "На вопрос «How are you?» ответьте: «Я в порядке».",
+      "accepted": [
+        "I'm fine",
+        "I am fine"
+      ],
+      "explain": "I'm fine — самый частый ответ на How are you?"
+    }
+  ],
+  "levelId": "preA1",
+  "blockId": "preA1-b1-start",
+  "grammar": true
+}

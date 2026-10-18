@@ -1,0 +1,271 @@
+{
+  "levels": [
+    {
+      "id": "preA1",
+      "cefr": "Pre-A1",
+      "title": "Старт с нуля",
+      "status": "available",
+      "goal": "Читать простые слова, здороваться, представляться, говорить о себе с глаголом to be, считать и называть время."
+    },
+    {
+      "id": "A1",
+      "cefr": "A1",
+      "title": "Начальный",
+      "status": "planned",
+      "goal": "Говорить о привычках и повседневных делах, описывать то, что есть вокруг, задавать простые вопросы.",
+      "topics": [
+        "Present Simple",
+        "вспомогательные глаголы do/does",
+        "порядок слов",
+        "have got",
+        "there is / there are",
+        "can",
+        "Present Continuous"
+      ]
+    },
+    {
+      "id": "A2",
+      "cefr": "A2",
+      "title": "Базовый",
+      "status": "planned",
+      "goal": "Рассказывать о прошлом и планах, сравнивать, вести простые разговоры в магазине, в поездке и на работе.",
+      "topics": [
+        "Past Simple",
+        "будущее время",
+        "степени сравнения",
+        "модальные глаголы",
+        "исчисляемые и неисчисляемые"
+      ]
+    },
+    {
+      "id": "B1",
+      "cefr": "B1",
+      "title": "Средний",
+      "status": "planned",
+      "goal": "Связно рассказывать о событиях и опыте, объяснять мнение, понимать основную мысль текстов и разговоров.",
+      "topics": [
+        "Present Perfect",
+        "условные предложения 0, 1, 2",
+        "пассивный залог",
+        "косвенная речь"
+      ]
+    },
+    {
+      "id": "B2",
+      "cefr": "B2",
+      "title": "Выше среднего",
+      "status": "planned",
+      "goal": "Свободно общаться на знакомые темы, понимать фильмы и статьи, писать структурированные тексты.",
+      "topics": [
+        "сложные времена",
+        "условные 3 и смешанные",
+        "герундий и инфинитив",
+        "фразовые глаголы"
+      ]
+    },
+    {
+      "id": "C1",
+      "cefr": "C1",
+      "title": "Продвинутый",
+      "status": "planned",
+      "goal": "Гибко пользоваться языком в учёбе и работе, понимать подтекст и стиль, аргументировать.",
+      "topics": [
+        "инверсия",
+        "оттенки модальности",
+        "регистр речи",
+        "коллокации"
+      ]
+    },
+    {
+      "id": "C2",
+      "cefr": "C2",
+      "title": "Владение в совершенстве",
+      "status": "planned",
+      "goal": "Точно и естественно выражать тонкие смыслы, понимать идиомы, иронию и сложные тексты.",
+      "topics": [
+        "стилистика",
+        "идиомы",
+        "подтекст",
+        "академическое письмо"
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "preA1-01",
+      "levelId": "preA1",
+      "title": "Привет! Первые слова",
+      "summary": "Приветствия, прощания, «пожалуйста» и «спасибо».",
+      "file": "preA1/01-greetings.json"
+    },
+    {
+      "id": "preA1-02",
+      "levelId": "preA1",
+      "title": "Алфавит и первые звуки",
+      "summary": "26 букв, краткие гласные и первые слова для чтения.",
+      "file": "preA1/02-alphabet.json"
+    },
+    {
+      "id": "preA1-03",
+      "levelId": "preA1",
+      "title": "Местоимения и глагол to be",
+      "summary": "I am, you are, he is: говорим о людях и состояниях.",
+      "file": "preA1/03-to-be.json"
+    },
+    {
+      "id": "preA1-04",
+      "levelId": "preA1",
+      "title": "To be: отрицания и вопросы",
+      "summary": "I'm not, Are you...?, Where, Who, How, What.",
+      "file": "preA1/04-to-be-negative-questions.json"
+    },
+    {
+      "id": "preA1-05",
+      "levelId": "preA1",
+      "title": "Артикли a / an / the",
+      "summary": "Как выбрать артикль и почему без него нельзя.",
+      "file": "preA1/05-articles.json"
+    },
+    {
+      "id": "preA1-06",
+      "levelId": "preA1",
+      "title": "Множественное число",
+      "summary": "Окончания -s и -es и неправильные формы: men, children.",
+      "file": "preA1/06-plural.json"
+    },
+    {
+      "id": "preA1-07",
+      "levelId": "preA1",
+      "title": "Числа и возраст",
+      "summary": "Числа от 0 до 100 и вопрос How old are you?",
+      "file": "preA1/07-numbers.json"
+    },
+    {
+      "id": "preA1-08",
+      "levelId": "preA1",
+      "title": "Дни, месяцы и время",
+      "summary": "Понедельник, май, пять часов и предлоги on / in / at.",
+      "file": "preA1/08-time.json"
+    },
+    {
+      "id": "preA1-09",
+      "levelId": "preA1",
+      "title": "Мой, твой, его: семья",
+      "summary": "my, your, his, her и слова о семье.",
+      "file": "preA1/09-possessives-family.json"
+    },
+    {
+      "id": "preA1-10",
+      "levelId": "preA1",
+      "title": "This, that, these, those и цвета",
+      "summary": "Показываем на предметы и называем их цвет.",
+      "file": "preA1/10-demonstratives-colors.json"
+    },
+    {
+      "id": "preA1-11",
+      "levelId": "preA1",
+      "title": "Знакомство",
+      "summary": "Первый диалог и текст: имя, возраст, страна, профессия.",
+      "file": "preA1/11-meeting.json"
+    }
+  ],
+  "readings": {
+    "file": "preA1/readings.json"
+  },
+  "tests": [
+    {
+      "id": "preA1-test-1",
+      "levelId": "preA1",
+      "title": "Контрольная по стартовому блоку",
+      "file": "preA1/test-1.json",
+      "lessonIds": [
+        "preA1-01",
+        "preA1-02",
+        "preA1-03",
+        "preA1-04",
+        "preA1-05",
+        "preA1-06",
+        "preA1-07",
+        "preA1-08",
+        "preA1-09",
+        "preA1-10",
+        "preA1-11"
+      ],
+      "writingIds": [
+        "w-intro",
+        "w-family"
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "id": "w-intro",
+      "levelId": "preA1",
+      "requires": [
+        "preA1-11"
+      ],
+      "title": "Представьтесь",
+      "prompt": "Напишите 4 коротких предложения о себе: как вас зовут, сколько вам лет, откуда вы и кто вы по профессии (student, teacher, doctor или другая, которую знаете).",
+      "checks": [
+        {
+          "label": "Есть имя: My name is …",
+          "pattern": "\\bmy name is\\s+[a-z]+",
+          "flags": "i"
+        },
+        {
+          "label": "Есть возраст: I am twenty",
+          "pattern": "\\b(i am|i'm)\\s+(\\d+|(twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety)([- ][a-z]+)?|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen)\\b",
+          "flags": "i"
+        },
+        {
+          "label": "Есть страна или город: from …",
+          "pattern": "\\bfrom\\s+[a-z]+",
+          "flags": "i"
+        },
+        {
+          "label": "Есть профессия с артиклем: I am a …",
+          "pattern": "\\b(i am|i'm)\\s+(a|an)\\s+[a-z]+",
+          "flags": "i"
+        },
+        {
+          "label": "Каждое предложение с заглавной буквы и с точкой в конце",
+          "pattern": "^\\s*([A-Z][^.!?]*[.!?]\\s*)+$",
+          "flags": ""
+        }
+      ],
+      "sample": "My name is Anna. I am twenty. I am from Russia. I am a student."
+    },
+    {
+      "id": "w-family",
+      "levelId": "preA1",
+      "requires": [
+        "preA1-09"
+      ],
+      "title": "Моя семья",
+      "prompt": "Напишите минимум 3 предложения о семье: кто в ней есть и какие они (happy, tired, a doctor, a teacher...).",
+      "checks": [
+        {
+          "label": "Названы хотя бы двое: my mother, my brother...",
+          "pattern": "\\bmy\\s+(mother|father|sister|brother)\\b[\\s\\S]*\\bmy\\s+(mother|father|sister|brother)\\b",
+          "flags": "i"
+        },
+        {
+          "label": "Есть глагол is или are",
+          "pattern": "\\b(is|are)\\b",
+          "flags": "i"
+        },
+        {
+          "label": "Не меньше 3 предложений",
+          "pattern": "([^.!?]+[.!?]\\s*){3,}",
+          "flags": ""
+        },
+        {
+          "label": "Каждое предложение с заглавной буквы и с точкой в конце",
+          "pattern": "^\\s*([A-Z][^.!?]*[.!?]\\s*)+$",
+          "flags": ""
+        }
+      ],
+      "sample": "This is my family. My mother is a doctor. My father is a teacher. My brother is a student."
+    }
+  ]
+}

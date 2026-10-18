@@ -1,0 +1,348 @@
+{
+  "id": "preA1-03",
+  "title": "Местоимения и глагол to be",
+  "goal": "Называть, кто что делает или в каком состоянии, с помощью местоимений и форм am / is / are.",
+  "explanation": [
+    {
+      "t": "p",
+      "text": "Глагол to be («быть») — самый частый в английском. В русском мы говорим «Я счастлив» без всякого глагола, а в английском глагол в таком предложении нужен всегда."
+    },
+    {
+      "t": "h",
+      "text": "Какую задачу он решает"
+    },
+    {
+      "t": "p",
+      "text": "Он связывает того, о ком мы говорим, с его состоянием или признаком: кто-то счастлив, устал, голоден. Сначала знакомимся с местоимениями (я, ты, он...), потом с формами глагола."
+    },
+    {
+      "t": "table",
+      "head": [
+        "Местоимение",
+        "Глагол",
+        "Пример",
+        "Перевод"
+      ],
+      "rows": [
+        [
+          "I (я)",
+          "am",
+          "I am happy.",
+          "Я счастлив."
+        ],
+        [
+          "you (ты, вы)",
+          "are",
+          "You are tired.",
+          "Ты устал. / Вы устали."
+        ],
+        [
+          "he (он)",
+          "is",
+          "He is hungry.",
+          "Он голоден."
+        ],
+        [
+          "she (она)",
+          "is",
+          "She is happy.",
+          "Она счастлива."
+        ],
+        [
+          "it (оно)",
+          "is",
+          "It is hot.",
+          "Жарко. / Он (предмет) горячий."
+        ],
+        [
+          "we (мы)",
+          "are",
+          "We are tired.",
+          "Мы устали."
+        ],
+        [
+          "they (они)",
+          "are",
+          "They are hungry.",
+          "Они голодны."
+        ]
+      ]
+    },
+    {
+      "t": "hl",
+      "text": "He — о мужчине или мальчике, she — о женщине или девочке, it — о предмете, о животном (когда пол неважен) и о погоде. Имя тоже можно заменить: Anna is happy = She is happy."
+    },
+    {
+      "t": "h",
+      "text": "Краткие формы"
+    },
+    {
+      "t": "p",
+      "text": "В живой речи глагол почти всегда сливается с местоимением: I'm, you're, he's, she's, it's, we're, they're. Апостроф заменяет пропущенную букву."
+    },
+    {
+      "t": "ex",
+      "en": "I'm happy.",
+      "ru": "Я счастлив."
+    },
+    {
+      "t": "ex",
+      "en": "She's tired.",
+      "ru": "Она устала."
+    },
+    {
+      "t": "ex",
+      "en": "We're hungry.",
+      "ru": "Мы голодны."
+    },
+    {
+      "t": "warn",
+      "text": "Типичная ошибка: пропускать глагол, как в русском. «I happy» или «She tired» — неверно. Нужно: I am happy, She is tired."
+    },
+    {
+      "t": "warn",
+      "text": "Слово you означает и «ты», и «вы», а глагол у него всегда один — are."
+    },
+    {
+      "t": "p",
+      "text": "Итог: I am, you / we / they are, he / she / it is. Без этого глагола предложение о состоянии не строится."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "i",
+      "en": "I",
+      "ru": "я",
+      "pos": "местоимение",
+      "ipa": "/aɪ/",
+      "example": "I am happy.",
+      "exampleRu": "Я счастлив."
+    },
+    {
+      "id": "you",
+      "en": "you",
+      "ru": "ты, вы",
+      "pos": "местоимение",
+      "ipa": "/juː/",
+      "example": "You are tired.",
+      "exampleRu": "Ты устал."
+    },
+    {
+      "id": "he",
+      "en": "he",
+      "ru": "он",
+      "pos": "местоимение",
+      "ipa": "/hiː/",
+      "example": "He is hungry.",
+      "exampleRu": "Он голоден."
+    },
+    {
+      "id": "she",
+      "en": "she",
+      "ru": "она",
+      "pos": "местоимение",
+      "ipa": "/ʃiː/",
+      "example": "She is happy.",
+      "exampleRu": "Она счастлива."
+    },
+    {
+      "id": "it",
+      "en": "it",
+      "ru": "оно (о предмете)",
+      "pos": "местоимение",
+      "ipa": "/ɪt/",
+      "example": "It is hot.",
+      "exampleRu": "Он горячий."
+    },
+    {
+      "id": "we",
+      "en": "we",
+      "ru": "мы",
+      "pos": "местоимение",
+      "ipa": "/wiː/",
+      "example": "We are tired.",
+      "exampleRu": "Мы устали."
+    },
+    {
+      "id": "they",
+      "en": "they",
+      "ru": "они",
+      "pos": "местоимение",
+      "ipa": "/ðeɪ/",
+      "example": "They are hungry.",
+      "exampleRu": "Они голодны."
+    },
+    {
+      "id": "happy",
+      "en": "happy",
+      "ru": "счастливый",
+      "pos": "прилагательное",
+      "ipa": "/ˈhæpi/",
+      "example": "We are happy.",
+      "exampleRu": "Мы счастливы."
+    },
+    {
+      "id": "tired",
+      "en": "tired",
+      "ru": "уставший",
+      "pos": "прилагательное",
+      "ipa": "/ˈtaɪəd/",
+      "example": "She is tired.",
+      "exampleRu": "Она устала."
+    },
+    {
+      "id": "hungry",
+      "en": "hungry",
+      "ru": "голодный",
+      "pos": "прилагательное",
+      "ipa": "/ˈhʌŋɡri/",
+      "example": "I am hungry.",
+      "exampleRu": "Я голоден."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "gap",
+      "topic": "to be",
+      "prompt": "I ___ happy.",
+      "accepted": [
+        "am"
+      ],
+      "explain": "С местоимением I всегда am."
+    },
+    {
+      "id": "e2",
+      "type": "gap",
+      "topic": "to be",
+      "prompt": "She ___ tired.",
+      "accepted": [
+        "is"
+      ],
+      "explain": "С he, she, it используется is."
+    },
+    {
+      "id": "e3",
+      "type": "gap",
+      "topic": "to be",
+      "prompt": "They ___ hungry.",
+      "accepted": [
+        "are"
+      ],
+      "explain": "С they, we и you используется are."
+    },
+    {
+      "id": "e4",
+      "type": "gap",
+      "topic": "to be",
+      "prompt": "It ___ hot.",
+      "accepted": [
+        "is"
+      ],
+      "explain": "It — как he и she, поэтому is."
+    },
+    {
+      "id": "e5",
+      "type": "choice",
+      "topic": "to be",
+      "prompt": "We ___ tired.",
+      "options": [
+        "is",
+        "am",
+        "are",
+        "be"
+      ],
+      "answer": 2,
+      "explain": "С we используется are."
+    },
+    {
+      "id": "e6",
+      "type": "choice",
+      "topic": "to be",
+      "prompt": "Как сказать «Он голоден»?",
+      "options": [
+        "He is hungry.",
+        "He hungry.",
+        "He are hungry.",
+        "He am hungry."
+      ],
+      "answer": 0,
+      "explain": "Нужен глагол, и с he это is."
+    },
+    {
+      "id": "e7",
+      "type": "choice",
+      "topic": "Местоимения",
+      "prompt": "Anna is happy. Каким словом можно заменить Anna?",
+      "options": [
+        "she",
+        "he",
+        "it",
+        "they"
+      ],
+      "answer": 0,
+      "explain": "Anna — женское имя, поэтому she."
+    },
+    {
+      "id": "e8",
+      "type": "choice",
+      "topic": "to be",
+      "prompt": "Исправьте ошибку в предложении «You is tired.»",
+      "options": [
+        "You are tired.",
+        "You am tired.",
+        "You be tired.",
+        "You tired."
+      ],
+      "answer": 0,
+      "explain": "С you всегда are, и для «ты», и для «вы»."
+    },
+    {
+      "id": "e9",
+      "type": "type",
+      "topic": "to be",
+      "prompt": "Переведите: «Я устал.»",
+      "accepted": [
+        "I am tired",
+        "I'm tired"
+      ],
+      "explain": "I am tired, в речи чаще I'm tired."
+    },
+    {
+      "id": "e10",
+      "type": "type",
+      "topic": "to be",
+      "prompt": "Переведите: «Она счастлива.»",
+      "accepted": [
+        "she is happy",
+        "she's happy"
+      ],
+      "explain": "She is happy или кратко She's happy."
+    },
+    {
+      "id": "e11",
+      "type": "type",
+      "topic": "to be",
+      "prompt": "Переведите: «Мы голодны.»",
+      "accepted": [
+        "we are hungry",
+        "we're hungry"
+      ],
+      "explain": "We are hungry или We're hungry."
+    },
+    {
+      "id": "e12",
+      "type": "type",
+      "topic": "to be",
+      "prompt": "Напишите краткую форму от I am",
+      "accepted": [
+        "I'm"
+      ],
+      "explain": "I am сокращается до I'm: апостроф стоит вместо буквы a.",
+      "strict": true
+    }
+  ],
+  "levelId": "preA1",
+  "blockId": "preA1-b1-start",
+  "grammar": true
+}

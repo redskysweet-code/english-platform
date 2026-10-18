@@ -1,0 +1,49 @@
+{
+  "id": "preA1-01",
+  "levelId": "preA1",
+  "blockId": "preA1-b1-start",
+  "title": "Привет! Первые слова",
+  "goal": "Поздороваться, попрощаться, вежливо попросить, поблагодарить и извиниться по-английски.",
+  "explanation": [
+    { "t": "p", "text": "Первые слова в любом языке — вежливые формулы. С ними можно начать разговор, даже если больше вы почти ничего не знаете. Нажимайте на кнопку со звуком рядом с примерами и повторяйте вслух." },
+    { "t": "h", "text": "Здороваемся" },
+    { "t": "ex", "en": "Hello!", "ru": "Здравствуйте! (подходит всегда)" },
+    { "t": "ex", "en": "Hi!", "ru": "Привет! (между знакомыми, неформально)" },
+    { "t": "ex", "en": "Good morning!", "ru": "Доброе утро! (до полудня)" },
+    { "t": "h", "text": "Прощаемся" },
+    { "t": "ex", "en": "Goodbye!", "ru": "До свидания!" },
+    { "t": "ex", "en": "Bye!", "ru": "Пока! (короче и проще)" },
+    { "t": "table", "head": ["Ситуация", "Что сказать"], "rows": [["Встреча с незнакомым или на работе", "Hello"], ["Встреча с другом", "Hi"], ["Расстаёмся надолго или официально", "Goodbye"], ["Расстаёмся ненадолго, с друзьями", "Bye"]] },
+    { "t": "h", "text": "Вежливые слова" },
+    { "t": "ex", "en": "Please.", "ru": "Пожалуйста (когда просите)" },
+    { "t": "ex", "en": "Thank you!", "ru": "Спасибо!" },
+    { "t": "ex", "en": "Sorry!", "ru": "Извините! (когда виноваты)" },
+    { "t": "ex", "en": "Yes. / No.", "ru": "Да. / Нет." },
+    { "t": "hl", "text": "В английском вежливость звучит очень часто. Please и thank you говорят в магазине, в кафе, коллегам и даже близким. Если их не говорить, фраза может прозвучать грубо." },
+    { "t": "warn", "text": "Типичная ошибка: русское «пожалуйста» бывает и просьбой, и ответом на «спасибо». Please — только просьба («дайте, пожалуйста»). В ответ на спасибо по-английски говорят иначе, об этом будет отдельный урок." },
+    { "t": "h", "text": "Произношение" },
+    { "t": "p", "text": "В Thank you начало «th» произносится с кончиком языка между зубами, не как «с» и не как «з». Попробуйте: язык слегка прикусывается, воздух выходит между языком и зубами." }
+  ],
+  "vocab": [
+    { "id": "hello", "en": "hello", "ru": "здравствуйте", "pos": "междометие", "ipa": "/həˈləʊ/", "alt": ["hi"], "example": "Hello, my name is Anna.", "exampleRu": "Здравствуйте, меня зовут Анна.", "collocations": ["say hello"] },
+    { "id": "hi", "en": "hi", "ru": "привет", "pos": "междометие", "ipa": "/haɪ/", "alt": ["hello"], "example": "Hi, Tom! How are you?", "exampleRu": "Привет, Том! Как дела?", "note": "Неформальное приветствие, подходит друзьям и коллегам." },
+    { "id": "goodbye", "en": "goodbye", "ru": "до свидания", "pos": "междометие", "ipa": "/ˌɡʊdˈbaɪ/", "alt": ["bye"], "example": "Goodbye, see you tomorrow.", "exampleRu": "До свидания, увидимся завтра.", "collocations": ["say goodbye"] },
+    { "id": "bye", "en": "bye", "ru": "пока", "pos": "междометие", "ipa": "/baɪ/", "alt": ["goodbye"], "example": "Bye! Have a nice day.", "exampleRu": "Пока! Хорошего дня." },
+    { "id": "please", "en": "please", "ru": "пожалуйста", "pos": "наречие", "ipa": "/pliːz/", "example": "Water, please.", "exampleRu": "Воды, пожалуйста.", "note": "Только в просьбе, не в ответ на «спасибо»." },
+    { "id": "thank-you", "en": "thank you", "ru": "спасибо", "pos": "фраза", "ipa": "/ˈθæŋk juː/", "alt": ["thanks"], "example": "Thank you very much!", "exampleRu": "Большое спасибо!", "collocations": ["thank you very much"] },
+    { "id": "yes", "en": "yes", "ru": "да", "pos": "наречие", "ipa": "/jes/", "example": "Yes, I am.", "exampleRu": "Да, это так.", "note": "Произносится «йес», не «ес»." },
+    { "id": "no", "en": "no", "ru": "нет", "pos": "наречие", "ipa": "/nəʊ/", "example": "No, thank you.", "exampleRu": "Нет, спасибо." },
+    { "id": "sorry", "en": "sorry", "ru": "извините", "pos": "междометие", "ipa": "/ˈsɒri/", "example": "Sorry, I am late.", "exampleRu": "Извините, я опоздал.", "collocations": ["I'm sorry"] },
+    { "id": "good-morning", "en": "good morning", "ru": "доброе утро", "pos": "фраза", "ipa": "/ˌɡʊd ˈmɔːnɪŋ/", "example": "Good morning, everyone!", "exampleRu": "Доброе утро, всем!", "note": "Говорят до полудня." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choice", "topic": "Приветствия", "prompt": "Утром вы встречаете коллегу. Что скажете?", "options": ["Good morning!", "Goodbye!", "Sorry!", "Please!"], "answer": 0, "explain": "Good morning — приветствие до полудня. Goodbye говорят, когда прощаются." },
+    { "id": "e2", "type": "choice", "topic": "Вежливость", "prompt": "Вы просите воды в кафе. Какое слово сделает просьбу вежливой?", "options": ["Sorry", "Please", "Bye", "No"], "answer": 1, "explain": "Please добавляют к просьбе: «Water, please»." },
+    { "id": "e3", "type": "gap", "topic": "Вежливость", "prompt": "Вам помогли. Скажите спасибо: Thank ___!", "accepted": ["you"], "explain": "Thank you — «спасибо». Слово you здесь обязательно." },
+    { "id": "e4", "type": "choice", "topic": "Приветствия", "prompt": "— Hello!  — ___", "options": ["Goodbye!", "Sorry!", "Hi!", "Please!"], "answer": 2, "explain": "На Hello отвечают Hello или Hi. Goodbye говорят при прощании." },
+    { "id": "e5", "type": "choice", "topic": "Вежливость", "prompt": "Вы случайно наступили человеку на ногу. Что скажете?", "options": ["Hi!", "Yes!", "Sorry!", "Bye!"], "answer": 2, "explain": "Sorry — извиниться, когда вы виноваты." },
+    { "id": "e6", "type": "gap", "topic": "Приветствия", "prompt": "Доброе утро: Good ___!", "accepted": ["morning"], "explain": "Good morning — доброе утро. Слово morning пишется так: m-o-r-n-i-n-g." },
+    { "id": "e7", "type": "type", "topic": "Вежливость", "prompt": "Переведите на английский: «Спасибо»", "accepted": ["thank you", "thanks"], "explain": "Спасибо = thank you (или короче thanks)." },
+    { "id": "e8", "type": "choice", "topic": "Приветствия", "prompt": "Вы прощаетесь с другом на пару часов. Что скажете?", "options": ["Hello!", "Bye!", "Good morning!", "Please!"], "answer": 1, "explain": "Bye — короткое «пока». Hello и Good morning — это приветствия." }
+  ]
+}

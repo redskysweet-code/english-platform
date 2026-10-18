@@ -1,0 +1,366 @@
+{
+  "id": "preA1-10",
+  "grammar": true,
+  "title": "This, that, these, those и цвета",
+  "goal": "Показывать на предметы рядом и вдали, использовать единственное и множественное число и называть цвета.",
+  "explanation": [
+    {
+      "t": "p",
+      "text": "Когда мы указываем на предмет, английский различает близко и далеко, один предмет или несколько."
+    },
+    {
+      "t": "table",
+      "head": [
+        "",
+        "Близко",
+        "Далеко"
+      ],
+      "rows": [
+        [
+          "один предмет",
+          "this (этот)",
+          "that (тот)"
+        ],
+        [
+          "несколько",
+          "these (эти)",
+          "those (те)"
+        ]
+      ]
+    },
+    {
+      "t": "ex",
+      "en": "This is a phone.",
+      "ru": "Это телефон. (держу в руках)"
+    },
+    {
+      "t": "ex",
+      "en": "That is a bag.",
+      "ru": "То сумка. (вдали)"
+    },
+    {
+      "t": "ex",
+      "en": "These are keys.",
+      "ru": "Это ключи. (рядом)"
+    },
+    {
+      "t": "ex",
+      "en": "Those are cars.",
+      "ru": "То машины. (вдали)"
+    },
+    {
+      "t": "hl",
+      "text": "This и that идут с is, а these и those идут с are. Если слово во множественном числе, а глагол остался is, предложение неверное."
+    },
+    {
+      "t": "warn",
+      "text": "Типичная ошибка: «This are my keys». Правильно: These are my keys."
+    },
+    {
+      "t": "h",
+      "text": "Цвета"
+    },
+    {
+      "t": "say",
+      "items": [
+        {
+          "en": "red"
+        },
+        {
+          "en": "blue"
+        },
+        {
+          "en": "green"
+        },
+        {
+          "en": "black"
+        },
+        {
+          "en": "white"
+        },
+        {
+          "en": "yellow"
+        }
+      ]
+    },
+    {
+      "t": "p",
+      "text": "Цвет — это прилагательное. Оно стоит перед существительным и никогда не меняется по числам: a red bag, red bags."
+    },
+    {
+      "t": "ex",
+      "en": "This is a black phone.",
+      "ru": "Это чёрный телефон."
+    },
+    {
+      "t": "ex",
+      "en": "Those are white cars.",
+      "ru": "То белые машины."
+    },
+    {
+      "t": "warn",
+      "text": "Русское «красные сумки» хочется передать как «reds bags», но прилагательное в английском не принимает окончание -s. Верно: red bags."
+    },
+    {
+      "t": "warn",
+      "text": "Water и coffee в этом курсе пока употребляем без артикля и без множественного числа: Water, please. Подробнее об этом будет в следующем уровне."
+    },
+    {
+      "t": "p",
+      "text": "Итог: this / that + is, these / those + are, а цвет ставим перед существительным, не изменяя его."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "this",
+      "en": "this",
+      "ru": "этот, это",
+      "pos": "указательное",
+      "ipa": "/ðɪs/",
+      "example": "This is my bag.",
+      "exampleRu": "Это моя сумка."
+    },
+    {
+      "id": "that",
+      "en": "that",
+      "ru": "тот, то",
+      "pos": "указательное",
+      "ipa": "/ðæt/",
+      "example": "That is a car.",
+      "exampleRu": "То машина."
+    },
+    {
+      "id": "these",
+      "en": "these",
+      "ru": "эти",
+      "pos": "указательное",
+      "ipa": "/ðiːz/",
+      "example": "These are my keys.",
+      "exampleRu": "Это мои ключи."
+    },
+    {
+      "id": "those",
+      "en": "those",
+      "ru": "те",
+      "pos": "указательное",
+      "ipa": "/ðəʊz/",
+      "example": "Those are big cars.",
+      "exampleRu": "То большие машины."
+    },
+    {
+      "id": "blue",
+      "en": "blue",
+      "ru": "синий, голубой",
+      "pos": "прилагательное",
+      "ipa": "/bluː/",
+      "example": "This is a blue bag.",
+      "exampleRu": "Это синяя сумка."
+    },
+    {
+      "id": "green",
+      "en": "green",
+      "ru": "зелёный",
+      "pos": "прилагательное",
+      "ipa": "/ɡriːn/",
+      "example": "That is a green car.",
+      "exampleRu": "То зелёная машина."
+    },
+    {
+      "id": "black",
+      "en": "black",
+      "ru": "чёрный",
+      "pos": "прилагательное",
+      "ipa": "/blæk/",
+      "example": "It is a black phone.",
+      "exampleRu": "Это чёрный телефон."
+    },
+    {
+      "id": "white",
+      "en": "white",
+      "ru": "белый",
+      "pos": "прилагательное",
+      "ipa": "/waɪt/",
+      "example": "It is a white house.",
+      "exampleRu": "Это белый дом."
+    },
+    {
+      "id": "phone",
+      "en": "phone",
+      "ru": "телефон",
+      "pos": "существительное",
+      "ipa": "/fəʊn/",
+      "example": "This is my phone.",
+      "exampleRu": "Это мой телефон."
+    },
+    {
+      "id": "bag",
+      "en": "bag",
+      "ru": "сумка",
+      "pos": "существительное",
+      "ipa": "/bæɡ/",
+      "example": "This is my bag.",
+      "exampleRu": "Это моя сумка."
+    },
+    {
+      "id": "water",
+      "en": "water",
+      "ru": "вода",
+      "pos": "существительное",
+      "ipa": "/ˈwɔːtə/",
+      "example": "Water, please.",
+      "exampleRu": "Воды, пожалуйста."
+    },
+    {
+      "id": "coffee",
+      "en": "coffee",
+      "ru": "кофе",
+      "pos": "существительное",
+      "ipa": "/ˈkɒfi/",
+      "example": "Coffee, please.",
+      "exampleRu": "Кофе, пожалуйста."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "gap",
+      "topic": "This / that",
+      "prompt": "___ is a phone. (рядом, один)",
+      "accepted": [
+        "this"
+      ],
+      "explain": "Один предмет рядом: this."
+    },
+    {
+      "id": "e2",
+      "type": "gap",
+      "topic": "This / that",
+      "prompt": "___ are keys. (рядом, несколько)",
+      "accepted": [
+        "these"
+      ],
+      "explain": "Несколько предметов рядом: these."
+    },
+    {
+      "id": "e3",
+      "type": "gap",
+      "topic": "This / that",
+      "prompt": "___ is a car. (вдали, один)",
+      "accepted": [
+        "that"
+      ],
+      "explain": "Один предмет вдали: that."
+    },
+    {
+      "id": "e4",
+      "type": "gap",
+      "topic": "This / that",
+      "prompt": "___ are bags. (вдали, несколько)",
+      "accepted": [
+        "those"
+      ],
+      "explain": "Несколько предметов вдали: those."
+    },
+    {
+      "id": "e5",
+      "type": "gap",
+      "topic": "This / that",
+      "prompt": "These ___ my keys.",
+      "accepted": [
+        "are"
+      ],
+      "explain": "These — множественное число, значит are."
+    },
+    {
+      "id": "e6",
+      "type": "choice",
+      "topic": "Прилагательные",
+      "prompt": "Выберите правильное предложение:",
+      "options": [
+        "Those are red cars.",
+        "Those is red cars.",
+        "Those are reds cars.",
+        "Those are cars red."
+      ],
+      "answer": 0,
+      "explain": "Those + are, прилагательное перед существительным без -s."
+    },
+    {
+      "id": "e7",
+      "type": "choice",
+      "topic": "Прилагательные",
+      "prompt": "Как сказать «Это чёрный телефон»?",
+      "options": [
+        "This is a black phone.",
+        "This is phone black.",
+        "This is a phone black.",
+        "This a black phone."
+      ],
+      "answer": 0,
+      "explain": "Цвет стоит перед существительным: a black phone."
+    },
+    {
+      "id": "e8",
+      "type": "choice",
+      "topic": "This / that",
+      "prompt": "___ are my friends. (рядом, несколько)",
+      "options": [
+        "These",
+        "This",
+        "That",
+        "Those"
+      ],
+      "answer": 0,
+      "explain": "Рядом + несколько: these."
+    },
+    {
+      "id": "e9",
+      "type": "listen",
+      "topic": "Цвета",
+      "prompt": "Послушайте и выберите",
+      "audio": "white",
+      "options": [
+        "white",
+        "black",
+        "blue",
+        "green"
+      ],
+      "answer": 0,
+      "explain": "Прозвучало white /waɪt/."
+    },
+    {
+      "id": "e10",
+      "type": "type",
+      "topic": "This / that",
+      "prompt": "Переведите: «Это мой телефон.»",
+      "accepted": [
+        "this is my phone"
+      ],
+      "explain": "This is my phone. Притяжательное слово без артикля."
+    },
+    {
+      "id": "e11",
+      "type": "type",
+      "topic": "Прилагательные",
+      "prompt": "Переведите: «То белые машины.»",
+      "accepted": [
+        "those are white cars",
+        "those cars are white"
+      ],
+      "explain": "Those are white cars. Прилагательное перед существительным."
+    },
+    {
+      "id": "e12",
+      "type": "type",
+      "topic": "Прилагательные",
+      "prompt": "Переведите: «Это зелёная сумка.»",
+      "accepted": [
+        "this is a green bag",
+        "it is a green bag"
+      ],
+      "explain": "This is a green bag. Артикль a перед согласным звуком."
+    }
+  ],
+  "levelId": "preA1",
+  "blockId": "preA1-b1-start"
+}

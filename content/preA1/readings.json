@@ -1,0 +1,292 @@
+[
+  {
+    "id": "read-tom-dog",
+    "title": "Tom and his dog",
+    "levelId": "preA1",
+    "requires": [
+      "preA1-11"
+    ],
+    "minutes": 1,
+    "sentences": [
+      {
+        "en": "This is Tom.",
+        "ru": "Это Том."
+      },
+      {
+        "en": "He is twelve.",
+        "ru": "Ему двенадцать."
+      },
+      {
+        "en": "He is a happy child.",
+        "ru": "Он счастливый ребёнок."
+      },
+      {
+        "en": "This is his dog.",
+        "ru": "Это его собака."
+      },
+      {
+        "en": "The dog is big.",
+        "ru": "Собака большая."
+      },
+      {
+        "en": "It is black and white.",
+        "ru": "Она чёрно-белая."
+      },
+      {
+        "en": "Tom is happy.",
+        "ru": "Том счастлив."
+      },
+      {
+        "en": "The dog is happy, too.",
+        "ru": "Собака тоже счастлива."
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "topic": "Чтение",
+        "prompt": "How old is Tom?",
+        "options": [
+          "twelve",
+          "thirteen",
+          "ten",
+          "twenty"
+        ],
+        "answer": 0,
+        "explain": "В тексте: «He is twelve»."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "topic": "Чтение",
+        "prompt": "The dog is red.",
+        "options": [
+          "Верно",
+          "Неверно"
+        ],
+        "answer": 1,
+        "explain": "В тексте: «It is black and white»."
+      },
+      {
+        "id": "q3",
+        "type": "choice",
+        "topic": "Чтение",
+        "prompt": "The dog is big.",
+        "options": [
+          "Верно",
+          "Неверно"
+        ],
+        "answer": 0,
+        "explain": "В тексте: «The dog is big»."
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "topic": "Чтение",
+        "prompt": "Tom is a teacher.",
+        "options": [
+          "Верно",
+          "Неверно"
+        ],
+        "answer": 1,
+        "explain": "Том — ребёнок: «He is a happy child»."
+      }
+    ]
+  },
+  {
+    "id": "read-hot-day",
+    "title": "A hot day",
+    "levelId": "preA1",
+    "requires": [
+      "preA1-09"
+    ],
+    "minutes": 1,
+    "sentences": [
+      {
+        "en": "It is Sunday.",
+        "ru": "Сегодня воскресенье."
+      },
+      {
+        "en": "It is hot.",
+        "ru": "Жарко."
+      },
+      {
+        "en": "The family is at home.",
+        "ru": "Семья дома."
+      },
+      {
+        "en": "The father is tired.",
+        "ru": "Отец устал."
+      },
+      {
+        "en": "The mother is hungry.",
+        "ru": "Мама голодна."
+      },
+      {
+        "en": "The children are happy.",
+        "ru": "Дети счастливы."
+      },
+      {
+        "en": "Water, please!",
+        "ru": "Воды, пожалуйста!"
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "topic": "Чтение",
+        "prompt": "What day is it?",
+        "options": [
+          "Sunday",
+          "Monday",
+          "Friday",
+          "Saturday"
+        ],
+        "answer": 0,
+        "explain": "В тексте: «It is Sunday»."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "topic": "Чтение",
+        "prompt": "Who is tired?",
+        "options": [
+          "The father",
+          "The mother",
+          "The children",
+          "The dog"
+        ],
+        "answer": 0,
+        "explain": "В тексте: «The father is tired»."
+      },
+      {
+        "id": "q3",
+        "type": "choice",
+        "topic": "Чтение",
+        "prompt": "The children are tired.",
+        "options": [
+          "Верно",
+          "Неверно"
+        ],
+        "answer": 1,
+        "explain": "В тексте: «The children are happy»."
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "topic": "Чтение",
+        "prompt": "It is hot.",
+        "options": [
+          "Верно",
+          "Неверно"
+        ],
+        "answer": 0,
+        "explain": "В тексте: «It is hot»."
+      }
+    ]
+  },
+  {
+    "id": "read-cafe",
+    "title": "At the café",
+    "levelId": "preA1",
+    "requires": [
+      "preA1-08",
+      "preA1-10"
+    ],
+    "minutes": 1,
+    "sentences": [
+      {
+        "en": "Anna and Max are friends.",
+        "ru": "Анна и Макс — друзья."
+      },
+      {
+        "en": "They are at a café.",
+        "ru": "Они в кафе."
+      },
+      {
+        "en": "It is five o'clock.",
+        "ru": "Сейчас пять часов."
+      },
+      {
+        "en": "Anna is tired.",
+        "ru": "Анна устала."
+      },
+      {
+        "en": "Max is hungry.",
+        "ru": "Макс голоден."
+      },
+      {
+        "en": "The coffee is hot.",
+        "ru": "Кофе горячий."
+      },
+      {
+        "en": "The water is not hot.",
+        "ru": "Вода не горячая."
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "topic": "Чтение",
+        "prompt": "Where are Anna and Max?",
+        "options": [
+          "At a café",
+          "At home",
+          "In Russia",
+          "In London"
+        ],
+        "answer": 0,
+        "explain": "В тексте: «They are at a café»."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "topic": "Чтение",
+        "prompt": "What time is it?",
+        "options": [
+          "Five o'clock",
+          "Six o'clock",
+          "Half past five",
+          "Three o'clock"
+        ],
+        "answer": 0,
+        "explain": "В тексте: «It is five o'clock»."
+      },
+      {
+        "id": "q3",
+        "type": "choice",
+        "topic": "Чтение",
+        "prompt": "Who is hungry?",
+        "options": [
+          "Max",
+          "Anna",
+          "Both",
+          "Nobody"
+        ],
+        "answer": 0,
+        "explain": "В тексте: «Max is hungry». Anna is tired."
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "topic": "Чтение",
+        "prompt": "The water is hot.",
+        "options": [
+          "Верно",
+          "Неверно"
+        ],
+        "answer": 1,
+        "explain": "В тексте: «The water is not hot»."
+      }
+    ],
+    "glossary": [
+      {
+        "en": "café",
+        "ru": "кафе"
+      }
+    ]
+  }
+]

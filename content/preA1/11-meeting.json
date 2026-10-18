@@ -1,0 +1,455 @@
+{
+  "id": "preA1-11",
+  "title": "Знакомство",
+  "goal": "Представиться, спросить собеседника, откуда он, чем занимается и сколько ему лет.",
+  "explanation": [
+    {
+      "t": "p",
+      "text": "Собрать всё изученное в первый настоящий разговор: имя, возраст, страна, занятие. Эти фразы вы будете использовать всю жизнь."
+    },
+    {
+      "t": "table",
+      "head": [
+        "Вопрос",
+        "Ответ"
+      ],
+      "rows": [
+        [
+          "What is your name?",
+          "My name is Anna. / I'm Anna."
+        ],
+        [
+          "How old are you?",
+          "I'm twenty."
+        ],
+        [
+          "Where are you from?",
+          "I'm from Russia."
+        ],
+        [
+          "Are you a student?",
+          "Yes, I am. / No, I'm not."
+        ]
+      ]
+    },
+    {
+      "t": "ex",
+      "en": "Nice to meet you.",
+      "ru": "Приятно познакомиться."
+    },
+    {
+      "t": "ex",
+      "en": "Nice to meet you, too.",
+      "ru": "Мне тоже приятно познакомиться."
+    },
+    {
+      "t": "ex",
+      "en": "And you?",
+      "ru": "А вы? / А ты?"
+    },
+    {
+      "t": "hl",
+      "text": "Слово and значит «и», «а». В начале ответного вопроса And you? оно возвращает вопрос собеседнику. Слово too значит «тоже»."
+    },
+    {
+      "t": "warn",
+      "text": "Страны, языки и национальности в английском пишутся с большой буквы: Russia, English. Имена и города — тоже: Anna, London."
+    },
+    {
+      "t": "warn",
+      "text": "Типичная ошибка: «I am student». Перед профессией нужен артикль: I am a student, She is a doctor."
+    },
+    {
+      "t": "warn",
+      "text": "Не путайте «from». I'm from Russia значит «я из России». «I'm Russia» значит «я — Россия»."
+    },
+    {
+      "t": "p",
+      "text": "Ниже — диалог и короткий текст. Послушайте их, прочитайте вслух, а затем ответьте на вопросы."
+    }
+  ],
+  "dialogue": {
+    "title": "Знакомство",
+    "lines": [
+      {
+        "who": "Anna",
+        "en": "Hello! I'm Anna.",
+        "ru": "Здравствуйте! Я Анна."
+      },
+      {
+        "who": "Tom",
+        "en": "Hi, Anna. I'm Tom. Nice to meet you.",
+        "ru": "Привет, Анна. Я Том. Приятно познакомиться."
+      },
+      {
+        "who": "Anna",
+        "en": "Nice to meet you, too. Where are you from?",
+        "ru": "Мне тоже приятно. Откуда вы?"
+      },
+      {
+        "who": "Tom",
+        "en": "I'm from London. And you?",
+        "ru": "Я из Лондона. А вы?"
+      },
+      {
+        "who": "Anna",
+        "en": "I'm from Russia. I'm a student.",
+        "ru": "Я из России. Я студентка."
+      },
+      {
+        "who": "Tom",
+        "en": "I'm a teacher. How old are you?",
+        "ru": "Я учитель. Сколько вам лет?"
+      },
+      {
+        "who": "Anna",
+        "en": "I'm twenty. And you?",
+        "ru": "Мне двадцать. А вам?"
+      },
+      {
+        "who": "Tom",
+        "en": "I'm thirty.",
+        "ru": "Мне тридцать."
+      }
+    ]
+  },
+  "reading": {
+    "title": "About Anna",
+    "minutes": 1,
+    "sentences": [
+      {
+        "en": "My name is Anna.",
+        "ru": "Меня зовут Анна."
+      },
+      {
+        "en": "I am twenty.",
+        "ru": "Мне двадцать."
+      },
+      {
+        "en": "I am from Russia.",
+        "ru": "Я из России."
+      },
+      {
+        "en": "I am a student.",
+        "ru": "Я студентка."
+      },
+      {
+        "en": "My brother is a doctor.",
+        "ru": "Мой брат — врач."
+      },
+      {
+        "en": "His name is Max.",
+        "ru": "Его зовут Макс."
+      },
+      {
+        "en": "He is twenty-five.",
+        "ru": "Ему двадцать пять."
+      },
+      {
+        "en": "We are a happy family.",
+        "ru": "Мы счастливая семья."
+      }
+    ],
+    "questions": [
+      {
+        "id": "r1",
+        "type": "choice",
+        "topic": "Чтение",
+        "prompt": "Anna is a teacher.",
+        "options": [
+          "Верно",
+          "Неверно"
+        ],
+        "answer": 1,
+        "explain": "В тексте: «I am a student». Anna — студентка."
+      },
+      {
+        "id": "r2",
+        "type": "choice",
+        "topic": "Чтение",
+        "prompt": "Anna is from Russia.",
+        "options": [
+          "Верно",
+          "Неверно"
+        ],
+        "answer": 0,
+        "explain": "В тексте: «I am from Russia»."
+      },
+      {
+        "id": "r3",
+        "type": "choice",
+        "topic": "Чтение",
+        "prompt": "Max is her brother.",
+        "options": [
+          "Верно",
+          "Неверно"
+        ],
+        "answer": 0,
+        "explain": "В тексте: «My brother is a doctor. His name is Max»."
+      },
+      {
+        "id": "r4",
+        "type": "choice",
+        "topic": "Чтение",
+        "prompt": "How old is Max?",
+        "options": [
+          "twenty",
+          "twenty-five",
+          "thirty",
+          "twelve"
+        ],
+        "answer": 1,
+        "explain": "В тексте: «He is twenty-five»."
+      },
+      {
+        "id": "r5",
+        "type": "choice",
+        "topic": "Чтение",
+        "prompt": "Max is a student.",
+        "options": [
+          "Верно",
+          "Неверно"
+        ],
+        "answer": 1,
+        "explain": "В тексте: «My brother is a doctor». Макс — врач."
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "id": "from",
+      "en": "from",
+      "ru": "из, от",
+      "pos": "предлог",
+      "ipa": "/frɒm/",
+      "example": "I am from Russia.",
+      "exampleRu": "Я из России."
+    },
+    {
+      "id": "nice",
+      "en": "nice",
+      "ru": "приятный, милый",
+      "pos": "прилагательное",
+      "ipa": "/naɪs/",
+      "example": "Nice to meet you.",
+      "exampleRu": "Приятно познакомиться."
+    },
+    {
+      "id": "meet",
+      "en": "meet",
+      "ru": "встречать, знакомиться",
+      "pos": "глагол",
+      "ipa": "/miːt/",
+      "example": "Nice to meet you.",
+      "exampleRu": "Приятно познакомиться."
+    },
+    {
+      "id": "student",
+      "en": "student",
+      "ru": "студент",
+      "pos": "существительное",
+      "ipa": "/ˈstjuːdnt/",
+      "example": "I am a student.",
+      "exampleRu": "Я студент."
+    },
+    {
+      "id": "teacher",
+      "en": "teacher",
+      "ru": "учитель",
+      "pos": "существительное",
+      "ipa": "/ˈtiːtʃə/",
+      "example": "He is a teacher.",
+      "exampleRu": "Он учитель."
+    },
+    {
+      "id": "doctor",
+      "en": "doctor",
+      "ru": "врач",
+      "pos": "существительное",
+      "ipa": "/ˈdɒktə/",
+      "example": "She is a doctor.",
+      "exampleRu": "Она врач."
+    },
+    {
+      "id": "country",
+      "en": "country",
+      "ru": "страна",
+      "pos": "существительное",
+      "ipa": "/ˈkʌntri/",
+      "example": "Russia is a big country.",
+      "exampleRu": "Россия — большая страна."
+    },
+    {
+      "id": "russia",
+      "en": "Russia",
+      "ru": "Россия",
+      "pos": "существительное",
+      "ipa": "/ˈrʌʃə/",
+      "example": "I am from Russia.",
+      "exampleRu": "Я из России."
+    },
+    {
+      "id": "english",
+      "en": "English",
+      "ru": "английский",
+      "pos": "существительное",
+      "ipa": "/ˈɪŋɡlɪʃ/",
+      "example": "My teacher is English.",
+      "exampleRu": "Мой учитель — англичанин."
+    },
+    {
+      "id": "too",
+      "en": "too",
+      "ru": "тоже",
+      "pos": "наречие",
+      "ipa": "/tuː/",
+      "example": "Me too.",
+      "exampleRu": "Я тоже.",
+      "note": "Звучит так же, как two."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choice",
+      "topic": "Знакомство",
+      "prompt": "Nice to meet you. — ___",
+      "options": [
+        "Nice to meet you, too.",
+        "Goodbye!",
+        "I am fine.",
+        "I am twenty."
+      ],
+      "answer": 0,
+      "explain": "На Nice to meet you отвечают Nice to meet you, too."
+    },
+    {
+      "id": "e2",
+      "type": "choice",
+      "topic": "Знакомство",
+      "prompt": "Where are you from? — ___",
+      "options": [
+        "I'm from Russia.",
+        "I'm fine.",
+        "I'm twenty.",
+        "I'm a doctor."
+      ],
+      "answer": 0,
+      "explain": "На Where from? отвечаем страной или городом."
+    },
+    {
+      "id": "e3",
+      "type": "choice",
+      "topic": "Знакомство",
+      "prompt": "What is your name? — ___",
+      "options": [
+        "My name is Anna.",
+        "I am twenty.",
+        "I am from Russia.",
+        "Yes, I am."
+      ],
+      "answer": 0,
+      "explain": "На вопрос об имени: My name is... или I'm..."
+    },
+    {
+      "id": "e4",
+      "type": "gap",
+      "topic": "Артикли",
+      "prompt": "I am ___ student.",
+      "accepted": [
+        "a"
+      ],
+      "explain": "Перед профессией нужен артикль; student начинается с согласного звука."
+    },
+    {
+      "id": "e5",
+      "type": "gap",
+      "topic": "Артикли",
+      "prompt": "She is ___ doctor.",
+      "accepted": [
+        "a"
+      ],
+      "explain": "Doctor начинается с согласного звука, поэтому a."
+    },
+    {
+      "id": "e6",
+      "type": "gap",
+      "topic": "Знакомство",
+      "prompt": "Where are you ___? — I'm from Russia.",
+      "accepted": [
+        "from"
+      ],
+      "explain": "Where are you from? — из какой страны или города."
+    },
+    {
+      "id": "e7",
+      "type": "choice",
+      "topic": "Знакомство",
+      "prompt": "Как правильно написать?",
+      "options": [
+        "Russia",
+        "russia",
+        "RUSSia",
+        "Rusia"
+      ],
+      "answer": 0,
+      "explain": "Страны пишутся с заглавной: Russia."
+    },
+    {
+      "id": "e8",
+      "type": "type",
+      "topic": "Знакомство",
+      "prompt": "Переведите: «Я из России.»",
+      "accepted": [
+        "i am from russia"
+      ],
+      "explain": "I am from Russia."
+    },
+    {
+      "id": "e9",
+      "type": "type",
+      "topic": "Знакомство",
+      "prompt": "Переведите: «Она учитель.»",
+      "accepted": [
+        "she is a teacher"
+      ],
+      "explain": "She is a teacher. Артикль a обязателен."
+    },
+    {
+      "id": "e10",
+      "type": "type",
+      "topic": "Знакомство",
+      "prompt": "Переведите: «А ты?»",
+      "accepted": [
+        "and you"
+      ],
+      "explain": "And you? — вернуть вопрос собеседнику."
+    },
+    {
+      "id": "e11",
+      "type": "type",
+      "topic": "Знакомство",
+      "skill": "listening",
+      "prompt": "Напишите, что услышали",
+      "audio": "Where are you from?",
+      "accepted": [
+        "where are you from"
+      ],
+      "explain": "Прозвучало: Where are you from? («Откуда вы?»)"
+    },
+    {
+      "id": "e12",
+      "type": "type",
+      "topic": "Знакомство",
+      "skill": "listening",
+      "prompt": "Напишите, что услышали",
+      "audio": "Nice to meet you.",
+      "accepted": [
+        "nice to meet you"
+      ],
+      "explain": "Прозвучало: Nice to meet you. («Приятно познакомиться.»)"
+    }
+  ],
+  "levelId": "preA1",
+  "blockId": "preA1-b1-start"
+}

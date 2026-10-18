@@ -1,0 +1,450 @@
+{
+  "id": "preA1-08",
+  "grammar": true,
+  "title": "Дни, месяцы и время",
+  "goal": "Называть дни недели и месяцы, говорить, который час, и выбирать предлог on, in или at.",
+  "explanation": [
+    {
+      "t": "p",
+      "text": "В этом уроке — дни недели, месяцы и время. Все названия можно прослушать."
+    },
+    {
+      "t": "h",
+      "text": "Дни недели"
+    },
+    {
+      "t": "say",
+      "items": [
+        {
+          "en": "Monday"
+        },
+        {
+          "en": "Tuesday"
+        },
+        {
+          "en": "Wednesday"
+        },
+        {
+          "en": "Thursday"
+        },
+        {
+          "en": "Friday"
+        },
+        {
+          "en": "Saturday"
+        },
+        {
+          "en": "Sunday"
+        }
+      ]
+    },
+    {
+      "t": "h",
+      "text": "Месяцы"
+    },
+    {
+      "t": "say",
+      "items": [
+        {
+          "en": "January"
+        },
+        {
+          "en": "February"
+        },
+        {
+          "en": "March"
+        },
+        {
+          "en": "April"
+        },
+        {
+          "en": "May"
+        },
+        {
+          "en": "June"
+        },
+        {
+          "en": "July"
+        },
+        {
+          "en": "August"
+        },
+        {
+          "en": "September"
+        },
+        {
+          "en": "October"
+        },
+        {
+          "en": "November"
+        },
+        {
+          "en": "December"
+        }
+      ]
+    },
+    {
+      "t": "warn",
+      "text": "Дни недели и месяцы в английском пишутся с большой буквы: Monday, May. В русском наоборот, поэтому русскоязычные часто забывают про заглавную."
+    },
+    {
+      "t": "ex",
+      "en": "Today is Monday.",
+      "ru": "Сегодня понедельник."
+    },
+    {
+      "t": "ex",
+      "en": "Tomorrow is Tuesday.",
+      "ru": "Завтра вторник."
+    },
+    {
+      "t": "h",
+      "text": "Который час"
+    },
+    {
+      "t": "p",
+      "text": "Для времени нужно местоимение it: It is five o'clock. Здесь it ничего не заменяет, но без него предложение не строится. Вопрос: What time is it?"
+    },
+    {
+      "t": "table",
+      "head": [
+        "Время",
+        "Как сказать"
+      ],
+      "rows": [
+        [
+          "5:00",
+          "It is five o'clock."
+        ],
+        [
+          "5:30",
+          "It is half past five."
+        ],
+        [
+          "5:15",
+          "It is quarter past five."
+        ],
+        [
+          "5:45",
+          "It is quarter to six."
+        ]
+      ]
+    },
+    {
+      "t": "hl",
+      "text": "O'clock говорят только про ровный час. Half past — «половина после», quarter past — «четверть после», quarter to — «без четверти». В обычной речи можно просто сказать цифрами: five thirty."
+    },
+    {
+      "t": "ex",
+      "en": "What time is it?",
+      "ru": "Который час?"
+    },
+    {
+      "t": "h",
+      "text": "Предлоги on, in, at"
+    },
+    {
+      "t": "table",
+      "head": [
+        "Предлог",
+        "С чем употребляется",
+        "Пример"
+      ],
+      "rows": [
+        [
+          "on",
+          "день недели",
+          "on Monday"
+        ],
+        [
+          "in",
+          "месяц, часть дня",
+          "in May, in the evening"
+        ],
+        [
+          "at",
+          "время по часам, at night",
+          "at five o'clock, at night"
+        ]
+      ]
+    },
+    {
+      "t": "ex",
+      "en": "I am at home on Sunday.",
+      "ru": "Я дома в воскресенье."
+    },
+    {
+      "t": "ex",
+      "en": "It is hot in July.",
+      "ru": "В июле жарко."
+    },
+    {
+      "t": "warn",
+      "text": "Типичная ошибка: «in Monday» или «at five o'clock on the morning». Запомните тройку: on Monday, in May, at five."
+    },
+    {
+      "t": "p",
+      "text": "Итог: дни и месяцы пишем с заглавной, время называем с it is, а предлог выбираем так: on — день, in — месяц и часть дня, at — часы."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "monday",
+      "en": "Monday",
+      "ru": "понедельник",
+      "pos": "существительное",
+      "ipa": "/ˈmʌndeɪ/",
+      "example": "Today is Monday.",
+      "exampleRu": "Сегодня понедельник."
+    },
+    {
+      "id": "friday",
+      "en": "Friday",
+      "ru": "пятница",
+      "pos": "существительное",
+      "ipa": "/ˈfraɪdeɪ/",
+      "example": "Tomorrow is Friday.",
+      "exampleRu": "Завтра пятница."
+    },
+    {
+      "id": "sunday",
+      "en": "Sunday",
+      "ru": "воскресенье",
+      "pos": "существительное",
+      "ipa": "/ˈsʌndeɪ/",
+      "example": "We are at home on Sunday.",
+      "exampleRu": "Мы дома в воскресенье."
+    },
+    {
+      "id": "today",
+      "en": "today",
+      "ru": "сегодня",
+      "pos": "наречие",
+      "ipa": "/təˈdeɪ/",
+      "example": "Today is hot.",
+      "exampleRu": "Сегодня жарко."
+    },
+    {
+      "id": "tomorrow",
+      "en": "tomorrow",
+      "ru": "завтра",
+      "pos": "наречие",
+      "ipa": "/təˈmɒrəʊ/",
+      "example": "Tomorrow is Saturday.",
+      "exampleRu": "Завтра суббота."
+    },
+    {
+      "id": "week",
+      "en": "week",
+      "ru": "неделя",
+      "pos": "существительное",
+      "ipa": "/wiːk/",
+      "example": "It is a long week.",
+      "exampleRu": "Это долгая неделя."
+    },
+    {
+      "id": "month",
+      "en": "month",
+      "ru": "месяц",
+      "pos": "существительное",
+      "ipa": "/mʌnθ/",
+      "example": "May is a happy month.",
+      "exampleRu": "Май — счастливый месяц."
+    },
+    {
+      "id": "oclock",
+      "en": "o'clock",
+      "ru": "часов (ровно)",
+      "pos": "наречие",
+      "ipa": "/əˈklɒk/",
+      "example": "It is five o'clock.",
+      "exampleRu": "Сейчас пять часов.",
+      "alt": [
+        "oclock"
+      ]
+    },
+    {
+      "id": "evening",
+      "en": "evening",
+      "ru": "вечер",
+      "pos": "существительное",
+      "ipa": "/ˈiːvnɪŋ/",
+      "example": "Good evening!",
+      "exampleRu": "Добрый вечер!"
+    },
+    {
+      "id": "time",
+      "en": "time",
+      "ru": "время; час",
+      "pos": "существительное",
+      "ipa": "/taɪm/",
+      "example": "What time is it?",
+      "exampleRu": "Который час?"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "gap",
+      "topic": "Время",
+      "prompt": "Today ___ Monday.",
+      "accepted": [
+        "is"
+      ],
+      "explain": "Today — это одно целое («сегодня»), поэтому is."
+    },
+    {
+      "id": "e2",
+      "type": "gap",
+      "topic": "Время",
+      "prompt": "It ___ five o'clock.",
+      "accepted": [
+        "is"
+      ],
+      "explain": "Время всегда начинается с It is."
+    },
+    {
+      "id": "e3",
+      "type": "choice",
+      "topic": "Дни недели",
+      "prompt": "Какой день идёт после Monday?",
+      "options": [
+        "Tuesday",
+        "Sunday",
+        "Friday",
+        "Thursday"
+      ],
+      "answer": 0,
+      "explain": "Порядок: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday."
+    },
+    {
+      "id": "e4",
+      "type": "choice",
+      "topic": "Предлоги времени",
+      "prompt": "I am at home ___ Monday.",
+      "options": [
+        "on",
+        "in",
+        "at",
+        "to"
+      ],
+      "answer": 0,
+      "explain": "С днями недели используется on."
+    },
+    {
+      "id": "e5",
+      "type": "choice",
+      "topic": "Предлоги времени",
+      "prompt": "It is hot ___ July.",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "to"
+      ],
+      "answer": 0,
+      "explain": "С месяцами используется in."
+    },
+    {
+      "id": "e6",
+      "type": "choice",
+      "topic": "Предлоги времени",
+      "prompt": "The bus is here ___ five o'clock.",
+      "options": [
+        "at",
+        "on",
+        "in",
+        "to"
+      ],
+      "answer": 0,
+      "explain": "С временем по часам используется at."
+    },
+    {
+      "id": "e7",
+      "type": "gap",
+      "topic": "Предлоги времени",
+      "prompt": "I am at home ___ the evening.",
+      "accepted": [
+        "in"
+      ],
+      "explain": "С частями дня (in the morning, in the evening) используется in."
+    },
+    {
+      "id": "e8",
+      "type": "choice",
+      "topic": "Время",
+      "prompt": "Как сказать 5:30?",
+      "options": [
+        "It is half past five.",
+        "It is quarter past five.",
+        "It is five o'clock.",
+        "It is quarter to five."
+      ],
+      "answer": 0,
+      "explain": "Half past — половина после часа: 5:30."
+    },
+    {
+      "id": "e9",
+      "type": "choice",
+      "topic": "Дни недели",
+      "prompt": "Как правильно написать?",
+      "options": [
+        "Monday",
+        "monday",
+        "Mondey",
+        "Munday"
+      ],
+      "answer": 0,
+      "explain": "Дни недели пишутся с заглавной буквы: Monday."
+    },
+    {
+      "id": "e10",
+      "type": "listen",
+      "topic": "Дни недели",
+      "prompt": "Послушайте и выберите",
+      "audio": "Sunday",
+      "options": [
+        "Sunday",
+        "Monday",
+        "Friday",
+        "Saturday"
+      ],
+      "answer": 0,
+      "explain": "Прозвучало Sunday /ˈsʌndeɪ/."
+    },
+    {
+      "id": "e11",
+      "type": "type",
+      "topic": "Дни недели",
+      "prompt": "Переведите: «Сегодня пятница.»",
+      "accepted": [
+        "today is friday",
+        "it is friday today"
+      ],
+      "explain": "Today is Friday. Friday пишется с заглавной, но регистр при проверке не важен."
+    },
+    {
+      "id": "e12",
+      "type": "type",
+      "topic": "Дни недели",
+      "prompt": "Переведите: «Завтра воскресенье.»",
+      "accepted": [
+        "tomorrow is sunday"
+      ],
+      "explain": "Tomorrow is Sunday."
+    },
+    {
+      "id": "e13",
+      "type": "type",
+      "topic": "Время",
+      "prompt": "Спросите по-английски: «Который час?»",
+      "accepted": [
+        "what time is it",
+        "what is the time"
+      ],
+      "explain": "What time is it? (или What is the time?)"
+    }
+  ],
+  "levelId": "preA1",
+  "blockId": "preA1-b1-start"
+}

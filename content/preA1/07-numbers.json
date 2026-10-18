@@ -1,0 +1,518 @@
+{
+  "id": "preA1-07",
+  "title": "Числа и возраст",
+  "goal": "Называть числа от 0 до 100 и сказать, сколько вам лет.",
+  "explanation": [
+    {
+      "t": "p",
+      "text": "Числа нужны для возраста, времени, цен и адресов. В этом уроке читаем и произносим числа словами, а в следующем применим их ко времени. Нажимайте на любое число, чтобы услышать его."
+    },
+    {
+      "t": "h",
+      "text": "От 0 до 10"
+    },
+    {
+      "t": "say",
+      "items": [
+        {
+          "en": "zero",
+          "note": "0"
+        },
+        {
+          "en": "one",
+          "note": "1"
+        },
+        {
+          "en": "two",
+          "note": "2"
+        },
+        {
+          "en": "three",
+          "note": "3"
+        },
+        {
+          "en": "four",
+          "note": "4"
+        },
+        {
+          "en": "five",
+          "note": "5"
+        },
+        {
+          "en": "six",
+          "note": "6"
+        },
+        {
+          "en": "seven",
+          "note": "7"
+        },
+        {
+          "en": "eight",
+          "note": "8"
+        },
+        {
+          "en": "nine",
+          "note": "9"
+        },
+        {
+          "en": "ten",
+          "note": "10"
+        }
+      ]
+    },
+    {
+      "t": "h",
+      "text": "От 11 до 20"
+    },
+    {
+      "t": "say",
+      "items": [
+        {
+          "en": "eleven",
+          "note": "11"
+        },
+        {
+          "en": "twelve",
+          "note": "12"
+        },
+        {
+          "en": "thirteen",
+          "note": "13"
+        },
+        {
+          "en": "fourteen",
+          "note": "14"
+        },
+        {
+          "en": "fifteen",
+          "note": "15"
+        },
+        {
+          "en": "sixteen",
+          "note": "16"
+        },
+        {
+          "en": "seventeen",
+          "note": "17"
+        },
+        {
+          "en": "eighteen",
+          "note": "18"
+        },
+        {
+          "en": "nineteen",
+          "note": "19"
+        },
+        {
+          "en": "twenty",
+          "note": "20"
+        }
+      ]
+    },
+    {
+      "t": "hl",
+      "text": "Числа 13–19 оканчиваются на -teen, а десятки — на -ty. Ударение разное: thir-TEEN (13, ударение в конце, звук долгий) и THIR-ty (30, ударение в начале). Это самая частая причина путаницы на слух: послушайте обе пары несколько раз."
+    },
+    {
+      "t": "say",
+      "items": [
+        {
+          "en": "thirteen",
+          "note": "13"
+        },
+        {
+          "en": "thirty",
+          "note": "30"
+        },
+        {
+          "en": "fifteen",
+          "note": "15"
+        },
+        {
+          "en": "fifty",
+          "note": "50"
+        }
+      ]
+    },
+    {
+      "t": "h",
+      "text": "Десятки и сотня"
+    },
+    {
+      "t": "say",
+      "items": [
+        {
+          "en": "twenty",
+          "note": "20"
+        },
+        {
+          "en": "thirty",
+          "note": "30"
+        },
+        {
+          "en": "forty",
+          "note": "40"
+        },
+        {
+          "en": "fifty",
+          "note": "50"
+        },
+        {
+          "en": "sixty",
+          "note": "60"
+        },
+        {
+          "en": "seventy",
+          "note": "70"
+        },
+        {
+          "en": "eighty",
+          "note": "80"
+        },
+        {
+          "en": "ninety",
+          "note": "90"
+        },
+        {
+          "en": "one hundred",
+          "note": "100"
+        }
+      ]
+    },
+    {
+      "t": "warn",
+      "text": "Число 14 пишется fourteen (с буквой u), а число 40 — forty (без u). Это одна из самых частых ошибок в написании."
+    },
+    {
+      "t": "h",
+      "text": "Составные числа"
+    },
+    {
+      "t": "p",
+      "text": "От 21 до 99: десяток, дефис, единица."
+    },
+    {
+      "t": "ex",
+      "en": "twenty-one",
+      "ru": "21"
+    },
+    {
+      "t": "ex",
+      "en": "thirty-five",
+      "ru": "35"
+    },
+    {
+      "t": "ex",
+      "en": "ninety-nine",
+      "ru": "99"
+    },
+    {
+      "t": "h",
+      "text": "Возраст"
+    },
+    {
+      "t": "p",
+      "text": "Возраст по-английски называют с глаголом to be, а не «иметь»: I am twenty. Можно добавить years old («лет»), но это необязательно."
+    },
+    {
+      "t": "ex",
+      "en": "How old are you?",
+      "ru": "Сколько вам лет?"
+    },
+    {
+      "t": "ex",
+      "en": "I am thirty.",
+      "ru": "Мне тридцать лет."
+    },
+    {
+      "t": "ex",
+      "en": "She is twelve years old.",
+      "ru": "Ей двенадцать лет."
+    },
+    {
+      "t": "warn",
+      "text": "Типичная ошибка русскоязычных: «I have twenty years». По-английски так не говорят. Верно: I am twenty."
+    },
+    {
+      "t": "warn",
+      "text": "Не путайте вопросы. How are you? значит «Как дела?», а How old are you? — «Сколько вам лет?». Ответы тоже разные: I am fine и I am twenty."
+    },
+    {
+      "t": "p",
+      "text": "Итог: числа до 20 нужно запомнить, десятки образуются с -ty, составные числа пишутся через дефис. Возраст: I am + число."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "one",
+      "en": "one",
+      "ru": "один",
+      "pos": "числительное",
+      "ipa": "/wʌn/",
+      "example": "One book, two books.",
+      "exampleRu": "Одна книга, две книги."
+    },
+    {
+      "id": "two",
+      "en": "two",
+      "ru": "два",
+      "pos": "числительное",
+      "ipa": "/tuː/",
+      "example": "Two cats are big.",
+      "exampleRu": "Две кошки большие."
+    },
+    {
+      "id": "three",
+      "en": "three",
+      "ru": "три",
+      "pos": "числительное",
+      "ipa": "/θriː/",
+      "example": "Three friends are happy.",
+      "exampleRu": "Три друга счастливы."
+    },
+    {
+      "id": "five",
+      "en": "five",
+      "ru": "пять",
+      "pos": "числительное",
+      "ipa": "/faɪv/",
+      "example": "Five cars are red.",
+      "exampleRu": "Пять машин красные."
+    },
+    {
+      "id": "ten",
+      "en": "ten",
+      "ru": "десять",
+      "pos": "числительное",
+      "ipa": "/ten/",
+      "example": "Ten children are happy.",
+      "exampleRu": "Десять детей счастливы."
+    },
+    {
+      "id": "twelve",
+      "en": "twelve",
+      "ru": "двенадцать",
+      "pos": "числительное",
+      "ipa": "/twelv/",
+      "example": "She is twelve.",
+      "exampleRu": "Ей двенадцать."
+    },
+    {
+      "id": "thirteen",
+      "en": "thirteen",
+      "ru": "тринадцать",
+      "pos": "числительное",
+      "ipa": "/ˌθɜːˈtiːn/",
+      "example": "He is thirteen.",
+      "exampleRu": "Ему тринадцать.",
+      "note": "Ударение на втором слоге: thir-TEEN."
+    },
+    {
+      "id": "thirty",
+      "en": "thirty",
+      "ru": "тридцать",
+      "pos": "числительное",
+      "ipa": "/ˈθɜːti/",
+      "example": "She is thirty.",
+      "exampleRu": "Ей тридцать.",
+      "note": "Ударение на первом слоге: THIR-ty."
+    },
+    {
+      "id": "hundred",
+      "en": "hundred",
+      "ru": "сто",
+      "pos": "числительное",
+      "ipa": "/ˈhʌndrəd/",
+      "example": "One hundred people are here.",
+      "exampleRu": "Сто человек здесь."
+    },
+    {
+      "id": "old",
+      "en": "old",
+      "ru": "старый, в возрасте",
+      "pos": "прилагательное",
+      "ipa": "/əʊld/",
+      "example": "How old are you?",
+      "exampleRu": "Сколько вам лет?",
+      "note": "В вопросе о возрасте: How old ...?"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choice",
+      "topic": "Числа",
+      "prompt": "Как пишется число 4 словами?",
+      "options": [
+        "four",
+        "five",
+        "fourteen",
+        "forty"
+      ],
+      "answer": 0,
+      "explain": "4 = four. Fourteen — 14, forty — 40."
+    },
+    {
+      "id": "e2",
+      "type": "choice",
+      "topic": "Числа",
+      "prompt": "Сколько будет 5 + 7? Выберите слово.",
+      "options": [
+        "twelve",
+        "eleven",
+        "seventeen",
+        "twenty"
+      ],
+      "answer": 0,
+      "explain": "5 + 7 = 12, по-английски twelve."
+    },
+    {
+      "id": "e3",
+      "type": "choice",
+      "topic": "Числа",
+      "prompt": "Как правильно написать число 40?",
+      "options": [
+        "forty",
+        "fourty",
+        "fortie",
+        "fourthy"
+      ],
+      "answer": 0,
+      "explain": "40 пишется forty, без буквы u, в отличие от fourteen."
+    },
+    {
+      "id": "e4",
+      "type": "listen",
+      "topic": "Числа",
+      "prompt": "Послушайте и выберите",
+      "audio": "thirteen",
+      "options": [
+        "thirteen",
+        "thirty",
+        "three",
+        "eight"
+      ],
+      "answer": 0,
+      "explain": "Прозвучало thirteen /θɜːˈtiːn/: ударение на конце. В thirty ударение на начале."
+    },
+    {
+      "id": "e5",
+      "type": "listen",
+      "topic": "Числа",
+      "prompt": "Послушайте и выберите",
+      "audio": "fifty",
+      "options": [
+        "fifty",
+        "fifteen",
+        "five",
+        "forty"
+      ],
+      "answer": 0,
+      "explain": "Прозвучало fifty. В fifteen ударение на конце: fif-TEEN."
+    },
+    {
+      "id": "e6",
+      "type": "choice",
+      "topic": "Возраст",
+      "prompt": "— How old are you?  — ___",
+      "options": [
+        "I am twenty.",
+        "I am fine.",
+        "I am home.",
+        "I am late."
+      ],
+      "answer": 0,
+      "explain": "На вопрос о возрасте отвечаем числом. I am fine — ответ на How are you?"
+    },
+    {
+      "id": "e7",
+      "type": "choice",
+      "topic": "Возраст",
+      "prompt": "Как правильно сказать «Мне пятнадцать»?",
+      "options": [
+        "I am fifteen.",
+        "I have fifteen.",
+        "Me fifteen.",
+        "I fifteen."
+      ],
+      "answer": 0,
+      "explain": "Возраст выражается глаголом to be: I am fifteen."
+    },
+    {
+      "id": "e8",
+      "type": "type",
+      "topic": "Числа",
+      "prompt": "Напишите словами число 7",
+      "accepted": [
+        "seven"
+      ],
+      "explain": "7 = seven."
+    },
+    {
+      "id": "e9",
+      "type": "type",
+      "topic": "Числа",
+      "prompt": "Напишите словами число 15",
+      "accepted": [
+        "fifteen"
+      ],
+      "explain": "15 = fifteen."
+    },
+    {
+      "id": "e10",
+      "type": "type",
+      "topic": "Числа",
+      "prompt": "Напишите словами число 21",
+      "accepted": [
+        "twenty-one",
+        "twenty one"
+      ],
+      "explain": "21 = twenty-one: десяток, дефис, единица."
+    },
+    {
+      "id": "e11",
+      "type": "type",
+      "topic": "Числа",
+      "prompt": "Напишите словами число 100",
+      "accepted": [
+        "one hundred",
+        "a hundred",
+        "hundred"
+      ],
+      "explain": "100 = one hundred (или a hundred)."
+    },
+    {
+      "id": "e12",
+      "type": "type",
+      "topic": "Возраст",
+      "prompt": "Переведите: «Мне тридцать лет.»",
+      "accepted": [
+        "i am thirty",
+        "i am thirty years old"
+      ],
+      "explain": "I am thirty. Можно добавить years old."
+    },
+    {
+      "id": "e13",
+      "type": "type",
+      "topic": "Возраст",
+      "prompt": "Переведите: «Сколько вам лет?»",
+      "accepted": [
+        "how old are you"
+      ],
+      "explain": "How old are you? Слово old здесь значит «в возрасте»."
+    },
+    {
+      "id": "e14",
+      "type": "gap",
+      "topic": "Возраст",
+      "prompt": "She ___ twelve years old.",
+      "accepted": [
+        "is"
+      ],
+      "explain": "С she используется is."
+    }
+  ],
+  "levelId": "preA1",
+  "blockId": "preA1-b1-start"
+}

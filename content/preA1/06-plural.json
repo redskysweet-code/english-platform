@@ -1,0 +1,333 @@
+{
+  "id": "preA1-06",
+  "title": "Множественное число",
+  "goal": "Образовывать множественное число существительных, включая основные исключения, и говорить о нескольких предметах с глаголом are.",
+  "explanation": [
+    {
+      "t": "p",
+      "text": "Когда предметов или людей больше одного, существительное меняется, а артикль a / an убирается. Окончание добавляется в конец слова. Начнём с главного правила, а потом разберём исключения."
+    },
+    {
+      "t": "h",
+      "text": "Правила образования"
+    },
+    {
+      "t": "table",
+      "head": [
+        "Если слово...",
+        "Что делаем",
+        "Пример"
+      ],
+      "rows": [
+        [
+          "обычное",
+          "+ s",
+          "cat → cats, book → books, friend → friends"
+        ],
+        [
+          "заканчивается на s, x, ch, sh",
+          "+ es",
+          "bus → buses, box → boxes"
+        ],
+        [
+          "согласная + y",
+          "y → ies",
+          "city → cities, family → families"
+        ],
+        [
+          "гласная + y",
+          "+ s",
+          "key → keys, day → days"
+        ]
+      ]
+    },
+    {
+      "t": "h",
+      "text": "Неправильные формы"
+    },
+    {
+      "t": "p",
+      "text": "Несколько самых частых слов меняются по-своему, их нужно просто запомнить:"
+    },
+    {
+      "t": "table",
+      "head": [
+        "Единственное",
+        "Множественное"
+      ],
+      "rows": [
+        [
+          "man",
+          "men"
+        ],
+        [
+          "woman",
+          "women"
+        ],
+        [
+          "child",
+          "children"
+        ],
+        [
+          "person",
+          "people"
+        ]
+      ]
+    },
+    {
+      "t": "hl",
+      "text": "В слове women первая буква o читается как /ɪ/: /ˈwɪmɪn/. Слово woman звучит /ˈwʊmən/. На слух они различаются."
+    },
+    {
+      "t": "h",
+      "text": "Как звучит окончание"
+    },
+    {
+      "t": "p",
+      "text": "Окончание -s читается по-разному: /s/ после глухих звуков (cats), /z/ после звонких и гласных (dogs, keys), /ɪz/ после s, x, ch, sh (boxes). Слушайте и повторяйте."
+    },
+    {
+      "t": "h",
+      "text": "С глаголом to be"
+    },
+    {
+      "t": "p",
+      "text": "О нескольких предметах говорим они: they, а глагол — are."
+    },
+    {
+      "t": "ex",
+      "en": "They are friends.",
+      "ru": "Они друзья."
+    },
+    {
+      "t": "ex",
+      "en": "We are children.",
+      "ru": "Мы дети."
+    },
+    {
+      "t": "warn",
+      "text": "Типичная ошибка: добавлять -s к неправильным словам: «childs», «mans». Правильно: children, men."
+    },
+    {
+      "t": "p",
+      "text": "Итог: обычно + s; после s, x, ch, sh — + es; согласная + y — ies; man, woman, child, person — особые формы."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "box",
+      "en": "box",
+      "ru": "коробка",
+      "pos": "существительное",
+      "ipa": "/bɒks/",
+      "example": "It is a big box.",
+      "exampleRu": "Это большая коробка."
+    },
+    {
+      "id": "child",
+      "en": "child",
+      "ru": "ребёнок",
+      "pos": "существительное",
+      "ipa": "/tʃaɪld/",
+      "example": "She is a happy child.",
+      "exampleRu": "Она счастливый ребёнок.",
+      "note": "Множественное число: children /ˈtʃɪldrən/."
+    },
+    {
+      "id": "man",
+      "en": "man",
+      "ru": "мужчина",
+      "pos": "существительное",
+      "ipa": "/mæn/",
+      "example": "He is a tired man.",
+      "exampleRu": "Он усталый мужчина.",
+      "note": "Множественное число: men."
+    },
+    {
+      "id": "woman",
+      "en": "woman",
+      "ru": "женщина",
+      "pos": "существительное",
+      "ipa": "/ˈwʊmən/",
+      "example": "She is a happy woman.",
+      "exampleRu": "Она счастливая женщина.",
+      "note": "Множественное число: women."
+    },
+    {
+      "id": "key",
+      "en": "key",
+      "ru": "ключ",
+      "pos": "существительное",
+      "ipa": "/kiː/",
+      "example": "It is a red key.",
+      "exampleRu": "Это красный ключ."
+    },
+    {
+      "id": "city",
+      "en": "city",
+      "ru": "город",
+      "pos": "существительное",
+      "ipa": "/ˈsɪti/",
+      "example": "It is a big city.",
+      "exampleRu": "Это большой город."
+    },
+    {
+      "id": "friend",
+      "en": "friend",
+      "ru": "друг",
+      "pos": "существительное",
+      "ipa": "/frend/",
+      "example": "He is a happy friend.",
+      "exampleRu": "Он счастливый друг."
+    },
+    {
+      "id": "day",
+      "en": "day",
+      "ru": "день",
+      "pos": "существительное",
+      "ipa": "/deɪ/",
+      "example": "It is a hot day.",
+      "exampleRu": "Это жаркий день."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "type",
+      "topic": "Множественное число",
+      "prompt": "Множественное число от «box»",
+      "accepted": [
+        "boxes"
+      ],
+      "explain": "После x добавляем -es: boxes."
+    },
+    {
+      "id": "e2",
+      "type": "type",
+      "topic": "Множественное число",
+      "prompt": "Множественное число от «city»",
+      "accepted": [
+        "cities"
+      ],
+      "explain": "Согласная + y: y меняем на ies: cities."
+    },
+    {
+      "id": "e3",
+      "type": "type",
+      "topic": "Множественное число",
+      "prompt": "Множественное число от «key»",
+      "accepted": [
+        "keys"
+      ],
+      "explain": "Перед y стоит гласная e, поэтому просто + s: keys."
+    },
+    {
+      "id": "e4",
+      "type": "type",
+      "topic": "Множественное число",
+      "prompt": "Множественное число от «child»",
+      "accepted": [
+        "children"
+      ],
+      "explain": "Неправильная форма: child → children."
+    },
+    {
+      "id": "e5",
+      "type": "type",
+      "topic": "Множественное число",
+      "prompt": "Множественное число от «woman»",
+      "accepted": [
+        "women"
+      ],
+      "explain": "Неправильная форма: woman → women."
+    },
+    {
+      "id": "e6",
+      "type": "choice",
+      "topic": "Множественное число",
+      "prompt": "Какое множественное число от «day»?",
+      "options": [
+        "days",
+        "daies",
+        "dayes",
+        "dais"
+      ],
+      "answer": 0,
+      "explain": "Гласная + y: просто + s, получается days."
+    },
+    {
+      "id": "e7",
+      "type": "choice",
+      "topic": "Множественное число",
+      "prompt": "They are ___.",
+      "options": [
+        "men",
+        "mans",
+        "mens",
+        "man"
+      ],
+      "answer": 0,
+      "explain": "Man — слово с неправильной формой: men."
+    },
+    {
+      "id": "e8",
+      "type": "gap",
+      "topic": "to be",
+      "prompt": "They ___ friends.",
+      "accepted": [
+        "are"
+      ],
+      "explain": "С they используется are."
+    },
+    {
+      "id": "e9",
+      "type": "type",
+      "topic": "to be",
+      "prompt": "Переведите: «Они друзья.»",
+      "accepted": [
+        "they are friends",
+        "they're friends"
+      ],
+      "explain": "They are friends. Артикль перед множественным числом не нужен."
+    },
+    {
+      "id": "e10",
+      "type": "type",
+      "topic": "to be",
+      "prompt": "Переведите: «Мы дети.»",
+      "accepted": [
+        "we are children",
+        "we're children"
+      ],
+      "explain": "We are children. Множественное число от child — children."
+    },
+    {
+      "id": "e11",
+      "type": "type",
+      "topic": "Множественное число",
+      "prompt": "Исправьте ошибку: «They are childs.» Напишите правильное слово.",
+      "accepted": [
+        "children"
+      ],
+      "explain": "Слово child имеет особую форму children."
+    },
+    {
+      "id": "e12",
+      "type": "listen",
+      "topic": "Множественное число",
+      "prompt": "Послушайте и выберите",
+      "audio": "boxes",
+      "options": [
+        "boxes",
+        "box",
+        "books",
+        "bus"
+      ],
+      "answer": 0,
+      "explain": "Прозвучало boxes /ˈbɒksɪz/ — с окончанием /ɪz/."
+    }
+  ],
+  "levelId": "preA1",
+  "blockId": "preA1-b1-start",
+  "grammar": true
+}

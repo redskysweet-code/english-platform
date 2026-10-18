@@ -1,0 +1,435 @@
+{
+  "id": "preA1-test-1",
+  "levelId": "preA1",
+  "title": "Контрольная по стартовому блоку",
+  "lessonIds": [
+    "preA1-01",
+    "preA1-02",
+    "preA1-03",
+    "preA1-04",
+    "preA1-05",
+    "preA1-06",
+    "preA1-07",
+    "preA1-08",
+    "preA1-09",
+    "preA1-10",
+    "preA1-11"
+  ],
+  "passRule": {
+    "vocabulary": 80,
+    "grammar": 80,
+    "reading": 70,
+    "listening": 70
+  },
+  "reading": {
+    "title": "Tom and Kate",
+    "sentences": [
+      {
+        "en": "Tom is a teacher.",
+        "ru": "Том — учитель."
+      },
+      {
+        "en": "He is thirty.",
+        "ru": "Ему тридцать."
+      },
+      {
+        "en": "He is from London.",
+        "ru": "Он из Лондона."
+      },
+      {
+        "en": "His sister is a student.",
+        "ru": "Его сестра — студентка."
+      },
+      {
+        "en": "Her name is Kate.",
+        "ru": "Её зовут Кейт."
+      },
+      {
+        "en": "She is twenty.",
+        "ru": "Ей двадцать."
+      },
+      {
+        "en": "On Monday they are at home.",
+        "ru": "В понедельник они дома."
+      },
+      {
+        "en": "It is a big white house.",
+        "ru": "Это большой белый дом."
+      }
+    ],
+    "questions": [
+      {
+        "id": "tr1",
+        "type": "choice",
+        "topic": "Чтение",
+        "prompt": "Tom is a doctor.",
+        "options": [
+          "Верно",
+          "Неверно"
+        ],
+        "answer": 1,
+        "explain": "В тексте: «Tom is a teacher».",
+        "skill": "reading",
+        "lessonId": "preA1-11"
+      },
+      {
+        "id": "tr2",
+        "type": "choice",
+        "topic": "Чтение",
+        "prompt": "Kate is his sister.",
+        "options": [
+          "Верно",
+          "Неверно"
+        ],
+        "answer": 0,
+        "explain": "В тексте: «His sister is a student. Her name is Kate».",
+        "skill": "reading",
+        "lessonId": "preA1-09"
+      },
+      {
+        "id": "tr3",
+        "type": "choice",
+        "topic": "Чтение",
+        "prompt": "How old is Kate?",
+        "options": [
+          "twenty",
+          "thirty",
+          "twelve",
+          "ten"
+        ],
+        "answer": 0,
+        "explain": "В тексте: «She is twenty».",
+        "skill": "reading",
+        "lessonId": "preA1-07"
+      },
+      {
+        "id": "tr4",
+        "type": "choice",
+        "topic": "Чтение",
+        "prompt": "Where are Tom and Kate on Monday?",
+        "options": [
+          "At home",
+          "In London",
+          "In Moscow",
+          "On Monday"
+        ],
+        "answer": 0,
+        "explain": "В тексте: «On Monday they are at home».",
+        "skill": "reading",
+        "lessonId": "preA1-08"
+      },
+      {
+        "id": "tr5",
+        "type": "choice",
+        "topic": "Чтение",
+        "prompt": "The house is small and black.",
+        "options": [
+          "Верно",
+          "Неверно"
+        ],
+        "answer": 1,
+        "explain": "В тексте: «It is a big white house».",
+        "skill": "reading",
+        "lessonId": "preA1-10"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g1",
+      "type": "gap",
+      "topic": "to be",
+      "prompt": "She ___ my mother.",
+      "accepted": [
+        "is"
+      ],
+      "explain": "С she используется is.",
+      "skill": "grammar",
+      "lessonId": "preA1-03"
+    },
+    {
+      "id": "g2",
+      "type": "gap",
+      "topic": "to be",
+      "prompt": "We ___ not tired.",
+      "accepted": [
+        "are"
+      ],
+      "explain": "С we используется are.",
+      "skill": "grammar",
+      "lessonId": "preA1-04"
+    },
+    {
+      "id": "g3",
+      "type": "choice",
+      "topic": "Краткие ответы",
+      "prompt": "Are they students? Выберите верный краткий ответ.",
+      "options": [
+        "Yes, they are.",
+        "Yes, they're.",
+        "Yes, they is.",
+        "Yes, are they."
+      ],
+      "answer": 0,
+      "explain": "В коротком «да» глагол не сокращается: Yes, they are.",
+      "skill": "grammar",
+      "lessonId": "preA1-04"
+    },
+    {
+      "id": "g4",
+      "type": "gap",
+      "topic": "Артикли",
+      "prompt": "It is ___ umbrella.",
+      "accepted": [
+        "an"
+      ],
+      "explain": "Umbrella начинается с гласного звука.",
+      "skill": "grammar",
+      "lessonId": "preA1-05"
+    },
+    {
+      "id": "g5",
+      "type": "gap",
+      "topic": "Артикли",
+      "prompt": "He is ___ teacher.",
+      "accepted": [
+        "a"
+      ],
+      "explain": "Teacher начинается с согласного звука.",
+      "skill": "grammar",
+      "lessonId": "preA1-05"
+    },
+    {
+      "id": "g6",
+      "type": "type",
+      "topic": "Множественное число",
+      "prompt": "Two ___ are at home. (child)",
+      "accepted": [
+        "children"
+      ],
+      "explain": "Неправильное множественное число: child → children.",
+      "skill": "grammar",
+      "lessonId": "preA1-06"
+    },
+    {
+      "id": "g7",
+      "type": "type",
+      "topic": "Множественное число",
+      "prompt": "Множественное число от «bus»",
+      "accepted": [
+        "buses"
+      ],
+      "explain": "После s добавляем -es: buses.",
+      "skill": "grammar",
+      "lessonId": "preA1-06"
+    },
+    {
+      "id": "g8",
+      "type": "choice",
+      "topic": "This / that",
+      "prompt": "These ___ red.",
+      "options": [
+        "are",
+        "is",
+        "am",
+        "be"
+      ],
+      "answer": 0,
+      "explain": "These — множественное число, поэтому are.",
+      "skill": "grammar",
+      "lessonId": "preA1-10"
+    },
+    {
+      "id": "g9",
+      "type": "choice",
+      "topic": "Вопросы",
+      "prompt": "___ is Max? — He is my brother.",
+      "options": [
+        "Who",
+        "What",
+        "Where",
+        "How"
+      ],
+      "answer": 0,
+      "explain": "Спрашиваем о человеке: Who.",
+      "skill": "grammar",
+      "lessonId": "preA1-04"
+    },
+    {
+      "id": "g10",
+      "type": "gap",
+      "topic": "Притяжательные",
+      "prompt": "Tom is my brother. ___ name is Tom.",
+      "accepted": [
+        "his"
+      ],
+      "explain": "Tom — он, поэтому his.",
+      "skill": "grammar",
+      "lessonId": "preA1-09"
+    },
+    {
+      "id": "g11",
+      "type": "type",
+      "topic": "This / that",
+      "prompt": "Переведите: «Это не мой телефон.»",
+      "accepted": [
+        "this is not my phone",
+        "that is not my phone",
+        "it is not my phone"
+      ],
+      "explain": "This is not my phone / This isn't my phone.",
+      "skill": "grammar",
+      "lessonId": "preA1-10"
+    },
+    {
+      "id": "g12",
+      "type": "choice",
+      "topic": "Вопросы",
+      "prompt": "Where ___ you from?",
+      "options": [
+        "are",
+        "is",
+        "am",
+        "do"
+      ],
+      "answer": 0,
+      "explain": "Where are you from?",
+      "skill": "grammar",
+      "lessonId": "preA1-04"
+    },
+    {
+      "id": "g13",
+      "type": "type",
+      "topic": "Время",
+      "prompt": "Переведите: «Завтра пятница.»",
+      "accepted": [
+        "tomorrow is friday"
+      ],
+      "explain": "Tomorrow is Friday.",
+      "skill": "grammar",
+      "lessonId": "preA1-08"
+    },
+    {
+      "id": "g14",
+      "type": "choice",
+      "topic": "Возраст",
+      "prompt": "Как сказать «Мне пятнадцать»?",
+      "options": [
+        "I am fifteen.",
+        "I have fifteen.",
+        "Me fifteen.",
+        "I fifteen."
+      ],
+      "answer": 0,
+      "explain": "Возраст: I am + число.",
+      "skill": "grammar",
+      "lessonId": "preA1-07"
+    },
+    {
+      "id": "g15",
+      "type": "choice",
+      "topic": "Артикли",
+      "prompt": "It is an apple. ___ apple is red.",
+      "options": [
+        "The",
+        "A",
+        "An",
+        "—"
+      ],
+      "answer": 0,
+      "explain": "Об этом яблоке мы уже сказали, поэтому the.",
+      "skill": "grammar",
+      "lessonId": "preA1-05"
+    },
+    {
+      "id": "g16",
+      "type": "choice",
+      "topic": "Предлоги времени",
+      "prompt": "I am at home ___ Sunday.",
+      "options": [
+        "on",
+        "in",
+        "at",
+        "to"
+      ],
+      "answer": 0,
+      "explain": "С днями недели используется on.",
+      "skill": "grammar",
+      "lessonId": "preA1-08"
+    },
+    {
+      "id": "g17",
+      "type": "type",
+      "topic": "Возраст",
+      "prompt": "Переведите: «Сколько тебе лет?»",
+      "accepted": [
+        "how old are you"
+      ],
+      "explain": "How old are you?",
+      "skill": "grammar",
+      "lessonId": "preA1-07"
+    }
+  ],
+  "listening": [
+    {
+      "id": "l1",
+      "type": "listen",
+      "topic": "Аудирование",
+      "prompt": "Послушайте и выберите",
+      "audio": "It is a green bag.",
+      "options": [
+        "It is a green bag.",
+        "It is a blue bag.",
+        "It is a black bag.",
+        "It is a white bag."
+      ],
+      "answer": 0,
+      "explain": "Прозвучало: It is a green bag.",
+      "skill": "listening",
+      "lessonId": "preA1-10"
+    },
+    {
+      "id": "l2",
+      "type": "listen",
+      "topic": "Аудирование",
+      "prompt": "Послушайте и выберите",
+      "audio": "I am twenty.",
+      "options": [
+        "I am twenty.",
+        "I am thirty.",
+        "I am twelve.",
+        "I am three."
+      ],
+      "answer": 0,
+      "explain": "Прозвучало: I am twenty.",
+      "skill": "listening",
+      "lessonId": "preA1-07"
+    },
+    {
+      "id": "l3",
+      "type": "type",
+      "topic": "Аудирование",
+      "prompt": "Напишите, что услышали",
+      "accepted": [
+        "she is my sister"
+      ],
+      "explain": "Прозвучало: She is my sister.",
+      "skill": "listening",
+      "lessonId": "preA1-09",
+      "audio": "She is my sister."
+    },
+    {
+      "id": "l4",
+      "type": "type",
+      "topic": "Аудирование",
+      "prompt": "Напишите, что услышали",
+      "accepted": [
+        "what time is it"
+      ],
+      "explain": "Прозвучало: What time is it?",
+      "skill": "listening",
+      "lessonId": "preA1-08",
+      "audio": "What time is it?"
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+{
+  "id": "preA1-09",
+  "grammar": true,
+  "title": "Мой, твой, его: семья",
+  "goal": "Говорить о принадлежности с my, your, his, her, our, their и называть членов семьи.",
+  "explanation": [
+    {
+      "t": "p",
+      "text": "Чтобы сказать «мой телефон» или «её брат», нужны притяжательные слова. Они стоят перед существительным и заменяют артикль."
+    },
+    {
+      "t": "table",
+      "head": [
+        "Кто",
+        "Слово",
+        "Пример"
+      ],
+      "rows": [
+        [
+          "I (я)",
+          "my (мой)",
+          "my name"
+        ],
+        [
+          "you (ты, вы)",
+          "your (твой, ваш)",
+          "your book"
+        ],
+        [
+          "he (он)",
+          "his (его)",
+          "his brother"
+        ],
+        [
+          "she (она)",
+          "her (её)",
+          "her sister"
+        ],
+        [
+          "we (мы)",
+          "our (наш)",
+          "our family"
+        ],
+        [
+          "they (они)",
+          "their (их)",
+          "their house"
+        ]
+      ]
+    },
+    {
+      "t": "hl",
+      "text": "His и her выбираются по владельцу, а не по предмету. Если брат Анны — her brother, потому что Анна — она. Если сестра Тома — his sister, потому что Том — он."
+    },
+    {
+      "t": "warn",
+      "text": "Артикль и притяжательное слово вместе не ставятся: «a my book» и «the my book» — ошибка. Верно: my book."
+    },
+    {
+      "t": "warn",
+      "text": "Не путайте your и you're. Они звучат одинаково. Your — «твой» (your book), а you're — краткая форма от you are (you're tired)."
+    },
+    {
+      "t": "h",
+      "text": "Имя и семья"
+    },
+    {
+      "t": "ex",
+      "en": "What is your name?",
+      "ru": "Как вас зовут? (Какое ваше имя?)"
+    },
+    {
+      "t": "ex",
+      "en": "My name is Anna.",
+      "ru": "Меня зовут Анна."
+    },
+    {
+      "t": "ex",
+      "en": "His name is Tom.",
+      "ru": "Его зовут Том."
+    },
+    {
+      "t": "p",
+      "text": "Дословно «My name is Anna» значит «Моё имя — Анна»: в английском для этого используется притяжательное слово my, а не «зовут»."
+    },
+    {
+      "t": "ex",
+      "en": "She is my sister.",
+      "ru": "Она моя сестра."
+    },
+    {
+      "t": "ex",
+      "en": "Our mother is a doctor.",
+      "ru": "Наша мама — врач."
+    },
+    {
+      "t": "p",
+      "text": "Итог: my, your, his, her, our, their стоят перед существительным без артикля, выбор his или her зависит от владельца."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "my",
+      "en": "my",
+      "ru": "мой",
+      "pos": "притяжательное",
+      "ipa": "/maɪ/",
+      "example": "My name is Tom.",
+      "exampleRu": "Меня зовут Том."
+    },
+    {
+      "id": "your",
+      "en": "your",
+      "ru": "твой, ваш",
+      "pos": "притяжательное",
+      "ipa": "/jɔː/",
+      "example": "What is your name?",
+      "exampleRu": "Как вас зовут?"
+    },
+    {
+      "id": "his",
+      "en": "his",
+      "ru": "его",
+      "pos": "притяжательное",
+      "ipa": "/hɪz/",
+      "example": "His sister is tired.",
+      "exampleRu": "Его сестра устала."
+    },
+    {
+      "id": "her",
+      "en": "her",
+      "ru": "её",
+      "pos": "притяжательное",
+      "ipa": "/hɜː/",
+      "example": "Her brother is happy.",
+      "exampleRu": "Её брат счастлив."
+    },
+    {
+      "id": "our",
+      "en": "our",
+      "ru": "наш",
+      "pos": "притяжательное",
+      "ipa": "/ˈaʊə/",
+      "example": "Our house is big.",
+      "exampleRu": "Наш дом большой."
+    },
+    {
+      "id": "their",
+      "en": "their",
+      "ru": "их",
+      "pos": "притяжательное",
+      "ipa": "/ðeə/",
+      "example": "Their car is red.",
+      "exampleRu": "Их машина красная."
+    },
+    {
+      "id": "name",
+      "en": "name",
+      "ru": "имя",
+      "pos": "существительное",
+      "ipa": "/neɪm/",
+      "example": "My name is Anna.",
+      "exampleRu": "Меня зовут Анна."
+    },
+    {
+      "id": "mother",
+      "en": "mother",
+      "ru": "мать, мама",
+      "pos": "существительное",
+      "ipa": "/ˈmʌðə/",
+      "example": "My mother is happy.",
+      "exampleRu": "Моя мама счастлива."
+    },
+    {
+      "id": "father",
+      "en": "father",
+      "ru": "отец, папа",
+      "pos": "существительное",
+      "ipa": "/ˈfɑːðə/",
+      "example": "His father is tired.",
+      "exampleRu": "Его папа устал."
+    },
+    {
+      "id": "sister",
+      "en": "sister",
+      "ru": "сестра",
+      "pos": "существительное",
+      "ipa": "/ˈsɪstə/",
+      "example": "Her sister is a student.",
+      "exampleRu": "Её сестра — студентка."
+    },
+    {
+      "id": "brother",
+      "en": "brother",
+      "ru": "брат",
+      "pos": "существительное",
+      "ipa": "/ˈbrʌðə/",
+      "example": "My brother is twelve.",
+      "exampleRu": "Моему брату двенадцать."
+    },
+    {
+      "id": "family",
+      "en": "family",
+      "ru": "семья",
+      "pos": "существительное",
+      "ipa": "/ˈfæməli/",
+      "example": "Our family is happy.",
+      "exampleRu": "Наша семья счастлива."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "gap",
+      "topic": "Притяжательные",
+      "prompt": "I am Tom. ___ name is Tom.",
+      "accepted": [
+        "my"
+      ],
+      "explain": "Говорит я, значит my."
+    },
+    {
+      "id": "e2",
+      "type": "gap",
+      "topic": "Притяжательные",
+      "prompt": "Anna is my sister. ___ name is Anna.",
+      "accepted": [
+        "her"
+      ],
+      "explain": "Anna — она, поэтому her."
+    },
+    {
+      "id": "e3",
+      "type": "gap",
+      "topic": "Притяжательные",
+      "prompt": "Tom is my brother. ___ name is Tom.",
+      "accepted": [
+        "his"
+      ],
+      "explain": "Tom — он, поэтому his."
+    },
+    {
+      "id": "e4",
+      "type": "gap",
+      "topic": "Притяжательные",
+      "prompt": "We are friends. ___ family is big.",
+      "accepted": [
+        "our"
+      ],
+      "explain": "Говорим мы, значит our."
+    },
+    {
+      "id": "e5",
+      "type": "gap",
+      "topic": "Притяжательные",
+      "prompt": "They are happy. ___ mother is happy.",
+      "accepted": [
+        "their"
+      ],
+      "explain": "Они, значит their."
+    },
+    {
+      "id": "e6",
+      "type": "choice",
+      "topic": "Притяжательные",
+      "prompt": "___ book is red. (Книга ваша.)",
+      "options": [
+        "Your",
+        "You",
+        "You're",
+        "Yours"
+      ],
+      "answer": 0,
+      "explain": "Перед существительным нужно притяжательное слово your."
+    },
+    {
+      "id": "e7",
+      "type": "choice",
+      "topic": "Притяжательные",
+      "prompt": "Как правильно?",
+      "options": [
+        "my book",
+        "a my book",
+        "the my book",
+        "I book"
+      ],
+      "answer": 0,
+      "explain": "Артикль и притяжательное слово вместе не ставятся."
+    },
+    {
+      "id": "e8",
+      "type": "choice",
+      "topic": "Притяжательные",
+      "prompt": "Anna is happy. Her brother is happy, too. Чей брат?",
+      "options": [
+        "Анны",
+        "Брата",
+        "Тома",
+        "Мой"
+      ],
+      "answer": 0,
+      "explain": "Her относится к Anna: это брат Анны."
+    },
+    {
+      "id": "e9",
+      "type": "type",
+      "topic": "Имя",
+      "prompt": "Переведите: «Как тебя зовут?»",
+      "accepted": [
+        "what is your name"
+      ],
+      "explain": "What is your name? Дословно «Какое твоё имя?»."
+    },
+    {
+      "id": "e10",
+      "type": "type",
+      "topic": "Имя",
+      "prompt": "Переведите: «Меня зовут Анна.»",
+      "accepted": [
+        "my name is anna"
+      ],
+      "explain": "My name is Anna."
+    },
+    {
+      "id": "e11",
+      "type": "type",
+      "topic": "Притяжательные",
+      "prompt": "Переведите: «Её отец устал.»",
+      "accepted": [
+        "her father is tired"
+      ],
+      "explain": "Her father is tired. Her — по владелице (она)."
+    },
+    {
+      "id": "e12",
+      "type": "type",
+      "topic": "Притяжательные",
+      "prompt": "Переведите: «Он мой брат.»",
+      "accepted": [
+        "he is my brother"
+      ],
+      "explain": "He is my brother. Артикль не нужен."
+    },
+    {
+      "id": "e13",
+      "type": "listen",
+      "topic": "Семья",
+      "prompt": "Послушайте и выберите",
+      "audio": "sister",
+      "options": [
+        "sister",
+        "brother",
+        "mother",
+        "father"
+      ],
+      "answer": 0,
+      "explain": "Прозвучало sister /ˈsɪstə/."
+    }
+  ],
+  "levelId": "preA1",
+  "blockId": "preA1-b1-start"
+}

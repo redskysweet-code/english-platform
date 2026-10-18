@@ -1,0 +1,300 @@
+{
+  "id": "preA1-05",
+  "title": "Артикли a / an / the",
+  "goal": "Выбирать между a, an и the перед существительным в единственном числе.",
+  "explanation": [
+    {
+      "t": "p",
+      "text": "Артикль — маленькое слово перед существительным. В русском языке артиклей нет, поэтому сначала к ним нужно просто привыкнуть. Главное: в английском предложении существительное в единственном числе почти никогда не стоит «голым»."
+    },
+    {
+      "t": "h",
+      "text": "A и an: «один из многих»"
+    },
+    {
+      "t": "p",
+      "text": "A или an мы ставим, когда называем предмет впервые или говорим «какой-то». Выбор зависит от первого ЗВУКА слова: перед согласным звуком — a, перед гласным — an."
+    },
+    {
+      "t": "table",
+      "head": [
+        "a (согласный звук)",
+        "an (гласный звук)"
+      ],
+      "rows": [
+        [
+          "a book",
+          "an apple"
+        ],
+        [
+          "a car",
+          "an egg"
+        ],
+        [
+          "a house",
+          "an umbrella"
+        ]
+      ]
+    },
+    {
+      "t": "ex",
+      "en": "It is a book.",
+      "ru": "Это книга."
+    },
+    {
+      "t": "ex",
+      "en": "It is an apple.",
+      "ru": "Это яблоко."
+    },
+    {
+      "t": "warn",
+      "text": "Смотрим на звук, а не на букву: an hour («аур», звук h не читается), но a university («юнивёсити», слово начинается со звука «й»)."
+    },
+    {
+      "t": "h",
+      "text": "The: «тот самый»"
+    },
+    {
+      "t": "p",
+      "text": "The ставим, когда понятно, о каком именно предмете речь: он уже упоминался, или он один такой."
+    },
+    {
+      "t": "ex",
+      "en": "It is a car. The car is red.",
+      "ru": "Это машина. Машина красная."
+    },
+    {
+      "t": "ex",
+      "en": "The sun is hot.",
+      "ru": "Солнце жаркое."
+    },
+    {
+      "t": "table",
+      "head": [
+        "a / an",
+        "the"
+      ],
+      "rows": [
+        [
+          "Первое упоминание: It is a car.",
+          "Уже известный: The car is red."
+        ],
+        [
+          "Какой-то, один из многих",
+          "Конкретный, единственный: the sun"
+        ]
+      ]
+    },
+    {
+      "t": "warn",
+      "text": "Типичная ошибка: пропускать артикль, как в русском: «It is car». Правильно: It is a car."
+    },
+    {
+      "t": "p",
+      "text": "Итог: a / an — «какой-то один», выбор по звуку; the — «тот самый». Артикль нужен перед существительным в единственном числе."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "apple",
+      "en": "apple",
+      "ru": "яблоко",
+      "pos": "существительное",
+      "ipa": "/ˈæpl/",
+      "example": "It is an apple.",
+      "exampleRu": "Это яблоко."
+    },
+    {
+      "id": "egg",
+      "en": "egg",
+      "ru": "яйцо",
+      "pos": "существительное",
+      "ipa": "/eɡ/",
+      "example": "It is an egg.",
+      "exampleRu": "Это яйцо."
+    },
+    {
+      "id": "umbrella",
+      "en": "umbrella",
+      "ru": "зонт",
+      "pos": "существительное",
+      "ipa": "/ʌmˈbrelə/",
+      "example": "It is an umbrella.",
+      "exampleRu": "Это зонт."
+    },
+    {
+      "id": "book",
+      "en": "book",
+      "ru": "книга",
+      "pos": "существительное",
+      "ipa": "/bʊk/",
+      "example": "It is a book.",
+      "exampleRu": "Это книга."
+    },
+    {
+      "id": "car",
+      "en": "car",
+      "ru": "машина",
+      "pos": "существительное",
+      "ipa": "/kɑː/",
+      "example": "It is a car.",
+      "exampleRu": "Это машина."
+    },
+    {
+      "id": "house",
+      "en": "house",
+      "ru": "дом (здание)",
+      "pos": "существительное",
+      "ipa": "/haʊs/",
+      "example": "It is a big house.",
+      "exampleRu": "Это большой дом."
+    },
+    {
+      "id": "table",
+      "en": "table",
+      "ru": "стол",
+      "pos": "существительное",
+      "ipa": "/ˈteɪbl/",
+      "example": "It is a table.",
+      "exampleRu": "Это стол."
+    },
+    {
+      "id": "chair",
+      "en": "chair",
+      "ru": "стул",
+      "pos": "существительное",
+      "ipa": "/tʃeə/",
+      "example": "It is a chair.",
+      "exampleRu": "Это стул."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "gap",
+      "topic": "Артикли",
+      "prompt": "It is ___ apple.",
+      "accepted": [
+        "an"
+      ],
+      "explain": "Apple начинается с гласного звука, поэтому an."
+    },
+    {
+      "id": "e2",
+      "type": "gap",
+      "topic": "Артикли",
+      "prompt": "It is ___ car.",
+      "accepted": [
+        "a"
+      ],
+      "explain": "Car начинается с согласного звука, поэтому a."
+    },
+    {
+      "id": "e3",
+      "type": "gap",
+      "topic": "Артикли",
+      "prompt": "It is ___ egg.",
+      "accepted": [
+        "an"
+      ],
+      "explain": "Egg начинается с гласного звука /e/, значит an."
+    },
+    {
+      "id": "e4",
+      "type": "gap",
+      "topic": "Артикли",
+      "prompt": "It is ___ umbrella.",
+      "accepted": [
+        "an"
+      ],
+      "explain": "Umbrella начинается со звука /ʌ/, это гласный, поэтому an."
+    },
+    {
+      "id": "e5",
+      "type": "gap",
+      "topic": "Артикли",
+      "prompt": "It is ___ house.",
+      "accepted": [
+        "a"
+      ],
+      "explain": "House начинается со звука /h/, это согласный, поэтому a."
+    },
+    {
+      "id": "e6",
+      "type": "gap",
+      "topic": "Артикли",
+      "prompt": "It is ___ table.",
+      "accepted": [
+        "a"
+      ],
+      "explain": "Table начинается с согласного звука, поэтому a."
+    },
+    {
+      "id": "e7",
+      "type": "choice",
+      "topic": "Артикли",
+      "prompt": "It is a car. ___ car is red.",
+      "options": [
+        "The",
+        "A",
+        "An",
+        "—"
+      ],
+      "answer": 0,
+      "explain": "Машина уже упомянута, и мы говорим о ней, поэтому the."
+    },
+    {
+      "id": "e8",
+      "type": "choice",
+      "topic": "Артикли",
+      "prompt": "Почему в «The sun is hot» стоит the?",
+      "options": [
+        "Солнце одно, понятно, о каком речь",
+        "Это первое упоминание солнца",
+        "Солнце — гласный звук",
+        "Так просто принято"
+      ],
+      "answer": 0,
+      "explain": "The ставим, когда предмет единственный или уже известен собеседнику."
+    },
+    {
+      "id": "e9",
+      "type": "choice",
+      "topic": "Артикли",
+      "prompt": "Выберите правильное предложение:",
+      "options": [
+        "It is an egg.",
+        "It is a egg.",
+        "It is egg.",
+        "It is the an egg."
+      ],
+      "answer": 0,
+      "explain": "Egg — гласный звук, поэтому an, и артикль нужен."
+    },
+    {
+      "id": "e10",
+      "type": "type",
+      "topic": "Артикли",
+      "prompt": "Переведите: «Это книга.»",
+      "accepted": [
+        "it is a book",
+        "it's a book"
+      ],
+      "explain": "It is a book. Артикль a обязателен."
+    },
+    {
+      "id": "e11",
+      "type": "type",
+      "topic": "Артикли",
+      "prompt": "Переведите: «Это яблоко.»",
+      "accepted": [
+        "it is an apple",
+        "it's an apple"
+      ],
+      "explain": "It is an apple. Перед гласным звуком an."
+    }
+  ],
+  "levelId": "preA1",
+  "blockId": "preA1-b1-start",
+  "grammar": true
+}
